@@ -1,0 +1,161 @@
+---
+layout: propaganda
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Facebook sharing information tags -->
+    <meta property="og:title" content="*|MC:SUBJECT|*" />
+
+    <title>*|MC:SUBJECT|*</title>
+    <style>
+    body {
+        background:#000000;
+        color:#faeec6 !important;
+        font-size:14px;
+        line-height:21px;
+        font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+        -webkit-font-smoothing:antialiased;
+        -webkit-text-size-adjust:none;
+        width:100% !important;
+    }
+    a {
+        color:#bb1723 !important;
+        text-decoration:underline !important;
+    }
+    h3 a {
+        color:#ccc2a1 !important;
+    }
+    .quote a {
+        color:#faeec6 !important;
+    }
+    .footer a {
+        color:#666151 !important;
+        white-space:nowrap;
+    }
+    a:hover {
+        text-decoration:none !important;
+    }
+    img {
+        border:none;
+    }
+    img.flex {
+        display:block;
+        height:auto !important;
+        margin:0 auto;
+        max-width:100%;
+        width:auto !important;
+    }
+    img.bullet {
+        margin-top:1px;
+    }
+    h2 {
+        color:#faeec6 !important;
+        font-size:21px;
+        font-style:italic;
+        font-weight:bold;
+        line-height:28px;
+        margin-top:0;
+        margin-bottom:0;
+        text-transform:uppercase;
+    }
+    h3 {
+        color:#faeec6 !important;
+        font-size:16px;
+        font-style:normal;
+        font-weight:normal;
+        line-height:21px;
+        margin-top:0;
+        margin-bottom:0;
+    }
+    p {
+        color:#faeec6 !important;
+    }
+
+    td {
+        font-size:14px;
+        line-height:21px;
+        font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    }
+    td.responsivecell {
+         max-width:600px;
+    }
+    table.quote {
+        color:#faeec6 !important;
+        margin-top:0;
+        margin-bottom:28px;
+    }
+    td.quote {
+        border-top:1px dotted #666151;
+        border-bottom:1px dotted #666151;
+        font-style:italic;
+    }
+    td.quote em {
+        font-style:normal;
+    }
+    td.quote div.cite {
+        text-align:right;
+    }
+    table.entry {
+        margin-top:14px;
+        margin-bottom:14px;
+    }
+    td.content {
+        color:#666151 !important;
+    }
+    table.footer {
+        border-top:4px solid #bb1723;
+    }
+    table.footer td {
+        color:#666151 !important;
+        font-size:11px;
+        line-height:14px;
+        text-align:center;
+    }
+    table.footer-contents td {
+        padding-top:7px;
+        padding-bottom:7px;
+    }
+    </style>
+</head>
+<body bgcolor="#000000" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000">
+    <tr>
+        <td bgcolor="#000000" width="100%">
+
+            <table cellpadding="0" cellspacing="0" border="0" align="center">
+                <tr>
+                    <td width="100%" class="responsivecell"><img src="propaganda.png" class="flex" alt="Propaganda, from your pals at Guerilla Labs"></td>
+                </tr>
+                <tr>
+                    <td width="100%" class="responsivecell">
+{{ content }}
+                   </td>
+                </tr>
+            </table>
+
+            <table width="100%" cellpadding="12" cellspacing="0" border="0" class="footer" align="center">
+                <tr>
+                    <td width="100%" class="responsivecell">
+                        <table width="100%" cellspacing="0" border="0" class="footer-contents">
+                            *|IFNOT:ARCHIVE_PAGE|*<tr><td width="100%" valign="top">Is this email not displaying correctly? <a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.</td></tr>
+                            <tr><td width="100%" valign="top"><a href="*|UNSUB|*">unsubscribe</a> | <a href="*|UPDATE_PROFILE|*">update preferences</a></td></tr>*|END:IF|*
+                            <tr><td width="100%" valign="top"><a href="*|TWITTER:PROFILEURL|*">follow on Twitter</a> | <a href="*|FORWARD|*">forward to a friend</a></td></tr>
+                            <tr><td width="100%" valign="top">*|LIST:DESCRIPTION|*</td></tr>
+                            <tr><td width="100%" valign="top">Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</td></tr>
+                            *|IF:REWARDS|*<tr><td width="100%" valign="top"> *|HTML:REWARDS|* </td></tr>*|END:IF|*
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
+

@@ -1,4 +1,4 @@
-name:        Site Name
+name:        Guerilla Labs
 
 safe:        false
 host:        0.0.0.0
@@ -21,5 +21,5 @@ pygments:    false
 
 relative_permalinks: false
 
-permalink:   /:categories/:title/
+permalink:   /:categories/:title.html
 paginate_path: 'page:num'
