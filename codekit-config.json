@@ -68,6 +68,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_includes\/head.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_includes\/head.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/sass\/libs\/functions\/_compact.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -79,15 +88,6 @@
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_compact.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/_includes\/head.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/head.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_layouts\/propaganda.html" : {
       "ignoreWasSetByUser" : 0,
@@ -139,6 +139,39 @@
       "outputAbbreviatedPath" : "\/js\/jquery-1.8.2.min-ck.js",
       "fileType" : 64
     },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sass\/libs\/css3\/_radial-gradient.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_radial-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_radial-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/libs\/addons\/_grid.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_grid.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_grid.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/sass\/grid.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 0,
@@ -174,39 +207,6 @@
       "outputAbbreviatedPath" : "\/js\/script-ck.js",
       "fileType" : 64
     },
-    "\/sass\/libs\/addons\/_grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_grid.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/libs\/css3\/_radial-gradient.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_radial-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_radial-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/sass\/libs\/addons\/_vertical-rhythm.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -231,15 +231,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/propaganda.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/propaganda.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/_posts\/2012-11-21-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -248,6 +239,15 @@
       "inputAbbreviatedPath" : "\/_posts\/2012-11-21-propaganda.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/css\/propaganda.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/propaganda.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
@@ -270,12 +270,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/type\/blokk\/BLOKKRegular_webfont.htm" : {
+    "\/_posts\/2013-05-22-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/type\/blokk\/BLOKKRegular_webfont.htm",
+      "inputAbbreviatedPath" : "\/_posts\/2013-05-22-propaganda.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -291,12 +291,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_posts\/2013-05-22-propaganda.html" : {
+    "\/type\/blokk\/BLOKKRegular_webfont.htm" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_posts\/2013-05-22-propaganda.html",
+      "inputAbbreviatedPath" : "\/type\/blokk\/BLOKKRegular_webfont.htm",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -439,6 +439,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/sass\/libs\/addons\/_triangle.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_triangle.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_triangle.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/type\/blokk\/BLOKKNeue-Regular\/webfonts\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -458,18 +470,6 @@
       "outputAbbreviatedPath" : "\/propaganda\/propaganda.png",
       "initialSize" : 37061,
       "fileType" : 8192
-    },
-    "\/sass\/libs\/addons\/_triangle.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_triangle.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_triangle.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/sass\/libs\/addons\/_clearfix.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -537,15 +537,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_includes\/footer.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/footer.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/sass\/libs\/addons\/_max-width.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -557,6 +548,15 @@
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_max-width.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_includes\/footer.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_includes\/footer.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/libs\/_reset.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -603,17 +603,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/prism.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/prism.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/prism-ck.js",
-      "fileType" : 64
-    },
     "\/_layouts\/home.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -622,6 +611,18 @@
       "inputAbbreviatedPath" : "\/_layouts\/home.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/sass\/libs\/addons\/_hidpi-media-query.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_hidpi-media-query.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_hidpi-media-query.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/propaganda-banner.png" : {
       "ignoreWasSetByUser" : 0,
@@ -658,15 +659,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/addons\/_hidpi-media-query.scss" : {
+    "\/sass\/libs\/addons\/_timing-functions.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_hidpi-media-query.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_timing-functions.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_hidpi-media-query.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_timing-functions.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -679,17 +680,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/libs\/addons\/_timing-functions.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/js\/prism.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_timing-functions.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_timing-functions.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/prism.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/prism-ck.js",
+      "fileType" : 64
     },
     "\/sass\/libs\/addons\/_size.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -760,18 +760,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/libs\/addons\/_button.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_button.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_button.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/libs\/css3\/_transition.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -784,6 +772,30 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/sass\/libs\/addons\/_button.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_button.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_button.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/libs\/_forms.scss" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/_forms.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/css\/_forms.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/_posts\/2013-05-10-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -792,18 +804,6 @@
       "inputAbbreviatedPath" : "\/_posts\/2013-05-10-propaganda.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/sass\/libs\/functions\/_render-gradients.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_render-gradients.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_render-gradients.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/sass\/libs\/css3\/_columns.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -829,15 +829,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/_forms.scss" : {
-      "ignoreWasSetByUser" : 1,
+    "\/sass\/libs\/functions\/_render-gradients.scss" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/_forms.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_render-gradients.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/css\/_forms.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_render-gradients.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -853,17 +853,26 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/css3\/_linear-gradient.scss" : {
+    "\/sass\/libs\/css3\/_box-sizing.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_linear-gradient.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_box-sizing.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_linear-gradient.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_box-sizing.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/css\/lte-ie8.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/lte-ie8.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
     },
     "\/sass\/libs\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -874,18 +883,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_border-image.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/libs\/css3\/_box-sizing.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_box-sizing.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_box-sizing.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -901,14 +898,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/lte-ie8.css" : {
+    "\/sass\/libs\/css3\/_linear-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/lte-ie8.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_linear-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_linear-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/libs\/addons\/_advanced-typography.scss" : {
       "ignoreWasSetByUser" : 0,
