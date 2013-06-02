@@ -124,6 +124,8 @@ header[role='banner'] {
 // home banner
 .home header {
 	background: $white;
+	border: none;
+	margin: 0;
 	overflow: hidden;
 	padding: 4% 0 3% 0;
 }
@@ -154,6 +156,7 @@ header[role='banner'] {
 
 .overview p {
 	margin: rel($vertical-rhythm * 3) 0;
+	text-indent: 0;
 }
 
 .overview ul {

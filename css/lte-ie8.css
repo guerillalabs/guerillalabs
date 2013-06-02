@@ -134,6 +134,8 @@ header[role='banner'] {
 
 .home header {
   background: #efefef;
+  border: none;
+  margin: 0;
   overflow: hidden;
   padding: 4% 0 3% 0; }
 
@@ -156,7 +158,8 @@ header[role='banner'] {
   margin: 27px 0; }
 
 .overview p {
-  margin: 27px 0; }
+  margin: 27px 0;
+  text-indent: 0; }
 
 .overview ul {
   margin: 27px 0; }
