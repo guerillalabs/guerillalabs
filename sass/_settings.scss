@@ -32,9 +32,9 @@ $base-line-height			: 18 * 1.5;
 
 
 // typefaces
-$base-font-family			: $helvetica;
+$base-font-family			: $adelle;
 
-$alt-font-family			: $palatino;
+$alt-font-family			: $futura;
 
 // Your headings may inherit the base typeface, or you may set a different font stack
 $heading-font-family		: $alt-font-family;
@@ -88,7 +88,7 @@ $maxwidth					: (1440/$base-font-size) + 0rem;
 
 // Sometimes you may want $black and $white to be ‘almost black’ and ’off-white’
 $black 						: rgb(33,36,32);
-$white 						: rgb(255,255,255);
+$white 						: rgb(239,239,239);
 
 // Define your main color palette
 $primary-color				: rgb(198,66,39);

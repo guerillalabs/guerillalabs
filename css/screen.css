@@ -71,7 +71,7 @@ textarea {
   width: device-width; }
 
 html {
-  background: white;
+  background: #efefef;
   font-size: 112.5%;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
@@ -80,7 +80,7 @@ html {
 body {
   background-color: transparent;
   color: #212420;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "adelle", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1rem;
   line-height: 1.5rem;
   width: 100%; }
@@ -106,8 +106,34 @@ a {
   a:focus, a:active {
     color: #aa3921; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700; }
+
+/*h1*/
+.title {
+  font-size: 2rem;
+  letter-spacing: .25em;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 1.16667rem; }
+
+p + p {
+  text-indent: 1.5em; }
+
+header[role='banner'] {
+  background: #212420;
+  border-bottom: 8px solid #c64227;
+  margin-bottom: 5rem; }
+
+.footer {
+  clear: both; }
+  .footer small {
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 .home header {
-  background: white;
+  background: #efefef;
   overflow: hidden;
   padding: 4% 0 3% 0; }
 
@@ -117,7 +143,7 @@ a {
   width: 102.5%; }
 
 .tag {
-  background: white;
+  background: #efefef;
   padding: 1.5rem 0; }
 
 .overview {

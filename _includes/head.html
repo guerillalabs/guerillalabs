@@ -15,19 +15,19 @@
     <!-- CSS -->
     <!-- For old IE -->
     <!--[if (lte IE 8)&!(IEMobile)]>
+        {% if page.css %}
         <link rel='stylesheet' href='/css/lte-ie8.css'>
         <link rel='stylesheet' href='/css/lte-ie8-grid.css'>
-        {% if page.css %}
-            <link rel='stylesheet' href='/css/lte-ie8-{{page.css}}'>
         {% endif %}
     <![endif]-->
 
     <!-- For all other browsers -->
     <!--[if gt IE 8]><!-->
+        {% if page.css %}
         <link rel='stylesheet' href='/css/screen.css'>
         <link rel='stylesheet' href='/css/grid.css'>
-        {% if page.css %}
-            <link href="{{ page.css }}" rel="stylesheet" media="all">
+        {% else %}
+        <link rel="stylesheet" href="/css/propaganda.css">
         {% endif %}
     <!--<![endif]-->
 

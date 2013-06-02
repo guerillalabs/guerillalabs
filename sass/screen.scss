@@ -70,6 +70,44 @@ a {
 	}
 }
 
+h1, h2, h3 , h4, h5, h6 {
+	font-family:$heading-font-family;
+	font-weight:700;
+}
+/*h1*/.title {
+	font-size:rel(36);
+	letter-spacing:.25em;
+	text-transform:uppercase;
+}
+h2 {
+	font-size:rel(21);
+}
+
+p + p {
+	text-indent:1.5em;
+}
+
+header[role='banner'] {
+	background:$black;
+	border-bottom:8px solid $primary-color;
+	margin-bottom:rel($vertical-rhythm * 10);
+}
+
+
+.footer {
+	clear:both;
+	small {
+		font-family:$alt-font-family;
+	}
+}
+
+// Import base typography into the cascade (if required)
+// @import "libs/typography";
+
+
+// Import form styles into the cascade (if required)
+// @import "libs/forms";
+
 
 
 // ::Layout styles
