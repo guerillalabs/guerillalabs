@@ -16,7 +16,12 @@
             <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         {% endcomment %}
 
-        <link rel="stylesheet" href="/css/propaganda.css">
+        {% if page.css %}
+            <link rel='stylesheet' href='/css/screen.css'>
+            <link rel='stylesheet' href='/css/grid.css'>
+        {% else %}
+            <link rel="stylesheet" href="/css/propaganda.css">
+        {% endif %}
 
         <script type="text/javascript" src="//use.typekit.net/ugs2jov.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>

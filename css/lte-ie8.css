@@ -71,7 +71,7 @@ textarea {
   width: device-width; }
 
 html {
-  background: white;
+  background: #efefef;
   font-size: 112.5%;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
@@ -80,7 +80,7 @@ html {
 body {
   background-color: transparent;
   color: #212420;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "adelle", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 27px;
   border: 29px;
@@ -121,3 +121,29 @@ a {
   color: #212420; }
 .lte-ie8 strong {
   color: #212420; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700; }
+
+/*h1*/
+.title {
+  font-size: 36px;
+  letter-spacing: .25em;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 21px; }
+
+p + p {
+  text-indent: 1.5em; }
+
+header[role='banner'] {
+  background: #212420;
+  border-bottom: 8px solid #c64227;
+  margin-bottom: 90px; }
+
+.footer {
+  clear: both; }
+  .footer small {
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
