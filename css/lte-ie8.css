@@ -83,10 +83,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 27px;
-  border: 29px;
-  border: 47px;
-  border: 15px;
-  border: 11px;
   width: 100%; }
 
 sup, sub {
@@ -110,14 +106,37 @@ a {
   a:focus, a:active {
     color: #aa3921; }
 
-a {
-  display: block; }
-  .lte-ie8 a {
-    color: #212420; }
+.home header {
+  background: white;
+  overflow: hidden;
+  padding: 4% 0 3% 0; }
 
-.lte-ie8 a {
-  color: #212420; }
-.lte-ie8 em {
-  color: #212420; }
-.lte-ie8 strong {
-  color: #212420; }
+.home .logo {
+  display: block;
+  margin: 0 0 0 -1.25%;
+  width: 102.5%; }
+
+.tag {
+  background: white;
+  padding: 27px 0; }
+
+.overview {
+  background: #212420;
+  color: #e0d1a2; }
+
+.overview h2 {
+  font-size: 29px;
+  line-height: 45px;
+  margin: 27px 0; }
+
+.overview p {
+  margin: 27px 0; }
+
+.overview ul {
+  margin: 27px 0; }
+
+.start {
+  background: #c64227;
+  color: #e0d1a2;
+  padding: 27px 0;
+  text-align: center; }

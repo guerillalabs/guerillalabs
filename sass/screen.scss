@@ -40,7 +40,7 @@ html {
 	background: $body-color;
 	font-size: percent($base-font-size, 16px);
 	-webkit-overflow-scrolling: touch;
-	// -webkit-tap-highlight-color: $lightestneutralcolor;
+	// -webkit-tap-highlight-color: $lightest-neutral-color;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
@@ -51,10 +51,6 @@ body {
 	font-family: $base-font-family;
 	font-size: rel($base-font-size);
 	line-height : rel($base-line-height);
-	border: rel($large-font-size);
-	border: rel($largest-font-size);
-	border: rel($small-font-size);
-	border: rel($smallest-font-size);
 	width : 100%;
 }
 
@@ -74,27 +70,6 @@ a {
 	}
 }
 
-a {
-	display: block;
-    @include mq(500px) {
-        color: $black;
-    }
-}
-
-@include mq((500, 800), true, true, (min, max), (width, width)) {
-    a { color: $black; }
-    em { color: $black; }
-    strong { color: $black; }
-}
-
-
-// Import base typography into the cascade (if required)
-// @import "libs/typography";
-
-
-// Import form styles into the cascade (if required)
-// @import "libs/forms";
-
 
 
 // ::Layout styles
@@ -107,6 +82,53 @@ a {
 
 // ::Module styles
 // ------------------------------------------------------------
+
+// home banner
+.home header {
+	background: $white;
+	overflow: hidden;
+	padding: 4% 0 3% 0;
+}
+.home .logo {
+	display: block;
+	margin: 0 0 0 -1.25%;
+	width: 102.5%;
+}
+
+// home tag
+.tag {
+	background: $white;
+	padding: rel($vertical-rhythm * 3) 0;
+}
+
+// home overview
+.overview {
+	background: $black;
+	color: $lighter-tertiary-color;
+	// padding: rel($vertical-rhythm * 3) 0;
+}
+
+.overview h2 {
+	font-size: rel($large-font-size);
+	line-height: rel($vertical-rhythm * 5);
+	margin: rel($vertical-rhythm * 3) 0;
+}
+
+.overview p {
+	margin: rel($vertical-rhythm * 3) 0;
+}
+
+.overview ul {
+	margin: rel($vertical-rhythm * 3) 0;
+}
+
+// home start
+.start {
+	background: $primary-color;
+	color: $lighter-tertiary-color;
+	padding: rel($vertical-rhythm * 3) 0;
+	text-align: center;
+}
 
 
 
