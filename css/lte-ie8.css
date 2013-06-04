@@ -178,6 +178,10 @@ blockquote {
   .footer small {
     font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+.page-container {
+  overflow: hidden;
+  width: 100%; }
+
 .home header {
   background: #efefef;
   border: none;
@@ -223,7 +227,6 @@ blockquote {
   background: #efefef;
   margin: 0 0 0 -2.5%;
   padding: 27px 0 27px 0;
-  overflow: hidden;
   width: 105%; }
 
 .overview {

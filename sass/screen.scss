@@ -160,6 +160,11 @@ blockquote {
 // grid
 // the grid styles are in grid.css (to speed up compiling) - for production it would be good to move them here
 
+.page-container {
+	overflow: hidden;
+	width: 100%;
+}
+
 
 
 // ::Module styles
@@ -201,7 +206,6 @@ blockquote {
 	@extend %cf;
 	margin: 0 0 0 -2.5%;
 	padding: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm * 3) 0;
-	overflow: hidden;
 	width: 105%;
 }
 

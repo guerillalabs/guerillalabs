@@ -14,15 +14,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/addons\/_hide-text.scss" : {
+    "\/sass\/libs\/css3\/_image-rendering.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_hide-text.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_image-rendering.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_hide-text.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_image-rendering.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -58,15 +58,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/addons\/_media-query.scss" : {
+    "\/sass\/libs\/addons\/_hide-text.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_media-query.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_hide-text.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_media-query.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_hide-text.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -82,15 +82,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/css3\/_image-rendering.scss" : {
+    "\/sass\/libs\/addons\/_media-query.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_image-rendering.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_media-query.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_image-rendering.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_media-query.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -127,6 +127,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/css\/propaganda.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/propaganda.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/sass\/libs\/css3\/_columns.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -138,15 +147,6 @@
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_columns.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/css\/propaganda.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/propaganda.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/sass\/libs\/css3\/_appearance.scss" : {
       "ignoreWasSetByUser" : 0,
