@@ -171,18 +171,38 @@ blockquote {
 	border: none;
 	margin: 0;
 	overflow: hidden;
-	padding: 4% 0 3% 0;
+	padding: 2% 0 3% 0;
 }
 .home .logo {
 	display: block;
-	margin: 0 0 0 -1.25%;
-	width: 102.5%;
+	margin: 0 0 0 -1.75%;
+	@include transform(rotate(2deg));
+	@include transform-origin(0 100%);
+	width: 103%;
 }
 
 // home tag
 .tag {
+	border-bottom: ($border-width * 6) $border-style $primary-color;
+	@include transform(rotate(2deg));
+	@include transform-origin(0 100%);
+	@include mq($bp-small) {
+		font-size: rel($medium-font-size);
+		line-height: rel($vertical-rhythm * 4);
+	}
+	@include mq($bp-medium) {
+		font-size: rel($large-font-size);
+		line-height: rel($vertical-rhythm * 5);
+	}
+}
+
+.tag div {
 	background: $white;
-	padding: rel($vertical-rhythm * 3) 0;
+	@extend %cf;
+	margin: 0 0 0 -2.5%;
+	padding: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm * 3) 0;
+	overflow: hidden;
+	width: 105%;
 }
 
 // home overview
