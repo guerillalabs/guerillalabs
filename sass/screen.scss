@@ -183,7 +183,7 @@ blockquote {
 
 // home tag
 .tag {
-	border-bottom: ($border-width * 6) $border-style $primary-color;
+	border-bottom: rel($vertical-rhythm) $border-style $primary-color;
 	@include transform(rotate(2deg));
 	@include transform-origin(0 100%);
 	@include mq($bp-small) {

@@ -201,7 +201,7 @@ blockquote {
   width: 103%; }
 
 .tag {
-  border-bottom: 6px solid #c64227;
+  border-bottom: 9px solid #c64227;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
