@@ -74,23 +74,67 @@ h1, h2, h3 , h4, h5, h6 {
 	font-family:$heading-font-family;
 	font-weight:700;
 }
+
 /*h1*/.title {
-	font-size:rel(36);
-	letter-spacing:.25em;
-	text-transform:uppercase;
+	color: $primary-color;
+	font-size: rel(36);
+	letter-spacing: .25em;
+	text-transform: uppercase;
 }
+
 h2 {
-	font-size:rel(21);
+	font-size: rel(21);
 }
 
 p + p {
-	text-indent:1.5em;
+	text-indent: 1.5em;
 }
 
 header[role='banner'] {
 	background:$black;
-	border-bottom:8px solid $primary-color;
 	margin-bottom:rel($vertical-rhythm * 10);
+	position:relative;
+	.graphic {
+		background:$primary-color;
+		bottom:0;
+		display:block;
+		height:8px;
+		left:0;
+		position:absolute;
+		width:100%;
+	}
+}
+
+// TODO: remove the div later
+div.logo {
+	height:80px;
+	margin:0 auto;
+	position:relative;
+	width:412px;
+}
+.letters {
+	position:absolute;
+	bottom:-16px;
+}
+.mark {
+	left:229px;
+	position:absolute;
+	bottom:-13px;
+	z-index:10;
+}
+
+blockquote {
+	background: $black;
+	border-top: 8px solid $secondary-color;
+	color: $primary-color;
+	float:right;
+	padding:rel($vertical-rhythm * 4);
+	width:48.64086%;
+	p {
+		font-family: $alt-font-family;
+		font-size: rel(21);
+		@include transform(rotate(-10deg) skew(-20deg));
+	}
 }
 
 

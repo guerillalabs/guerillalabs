@@ -112,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*h1*/
 .title {
+  color: #c64227;
   font-size: 36px;
   letter-spacing: .25em;
   text-transform: uppercase; }
@@ -124,8 +125,48 @@ p + p {
 
 header[role='banner'] {
   background: #212420;
-  border-bottom: 8px solid #c64227;
-  margin-bottom: 90px; }
+  margin-bottom: 90px;
+  position: relative; }
+  header[role='banner'] .graphic {
+    background: #c64227;
+    bottom: 0;
+    display: block;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    width: 100%; }
+
+div.logo {
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  width: 412px; }
+
+.letters {
+  position: absolute;
+  bottom: -16px; }
+
+.mark {
+  left: 229px;
+  position: absolute;
+  bottom: -13px;
+  z-index: 10; }
+
+blockquote {
+  background: #212420;
+  border-top: 8px solid #5c7d4d;
+  color: #c64227;
+  float: right;
+  padding: 36px;
+  width: 48.64086%; }
+  blockquote p {
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    -webkit-transform: rotate(-10deg) skew(-20deg);
+    -moz-transform: rotate(-10deg) skew(-20deg);
+    -ms-transform: rotate(-10deg) skew(-20deg);
+    -o-transform: rotate(-10deg) skew(-20deg);
+    transform: rotate(-10deg) skew(-20deg); }
 
 .footer {
   clear: both; }
