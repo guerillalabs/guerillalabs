@@ -174,9 +174,27 @@ blockquote {
     transform: rotate(-10deg) skew(-20deg); }
 
 .footer {
-  clear: both; }
+  clear: both;
+  padding-top: 4.05556rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+  text-align: center; }
+  .footer p {
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 0.5rem; }
   .footer small {
-    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    display: block;
+    font-size: 0.809rem; }
+  .footer:after {
+    background: url(/img/crest.svg) no-repeat 0 0;
+    background-size: 100%;
+    content: "";
+    height: 110px;
+    left: 50%;
+    margin-left: -45px;
+    position: absolute;
+    top: -55px;
+    width: 90px; }
 
 .page-container {
   overflow: hidden;
@@ -205,7 +223,8 @@ blockquote {
   width: 103%; }
 
 .tag {
-  border-bottom: 0.5rem solid #c64227;
+  border-bottom: 1rem solid #c64227;
+  margin: 0 0 0 -1%;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
@@ -215,7 +234,8 @@ blockquote {
   -moz-transform-origin: 0 100%;
   -ms-transform-origin: 0 100%;
   -o-transform-origin: 0 100%;
-  transform-origin: 0 100%; }
+  transform-origin: 0 100%;
+  width: 102%; }
   @media screen and (min-width: 30em) {
     .tag {
       font-size: 1.30896rem;
@@ -227,13 +247,39 @@ blockquote {
 
 .tag div {
   background: #efefef;
-  margin: 0 0 0 -2.5%;
-  padding: 1.5rem 0 1.5rem 0;
-  width: 105%; }
+  padding: 1.5rem 0 2.5rem 0; }
+
+.start {
+  position: relative;
+  text-align: center;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%; }
+
+.start a {
+  background: #c64227;
+  color: #e0d1a2;
+  padding: 1rem 1rem;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: -2rem;
+  white-space: nowrap; }
+  .start a:hover {
+    background: #aa3921; }
 
 .overview {
-  background: #212420;
-  color: #e0d1a2; }
+  background: #212420 url(/img/topo-5.png) repeat;
+  color: #e0d1a2;
+  padding: 1.5rem 0; }
 
 .overview h2 {
   font-size: 1.618rem;
@@ -247,8 +293,15 @@ blockquote {
 .overview ul {
   margin: 1.5rem 0; }
 
-.start {
-  background: #c64227;
-  color: #e0d1a2;
-  padding: 1.5rem 0;
+.contact {
+  background: #5c7d4d;
+  color: #2e3e26;
+  padding: 1.5rem 0 4.05556rem 0;
   text-align: center; }
+  .contact h2 {
+    font-size: 1.618rem;
+    line-height: 2rem;
+    padding: 0 0 1rem 0;
+    text-transform: uppercase; }
+  .contact a {
+    color: #2e3e26; }

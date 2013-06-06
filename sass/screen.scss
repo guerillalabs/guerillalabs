@@ -137,20 +137,32 @@ blockquote {
 	}
 }
 
-
 .footer {
 	clear:both;
+	padding-top: rel($vertical-rhythm * 2 + 55);
+	padding-bottom: rel($vertical-rhythm * 3);
+	position: relative;
+	text-align: center;
+	p {
+		font-family: $alt-font-family;
+		margin-bottom: rel($vertical-rhythm)
+	}
 	small {
-		font-family:$alt-font-family;
+		display: block;
+		font-size: rel($small-font-size);
+	}
+	&:after {
+		background: url(/img/crest.svg) no-repeat 0 0;
+		background-size: 100%;
+		content: "";
+		height: 110px;
+		left: 50%;
+		margin-left: -45px;
+		position: absolute;
+		top: -55px;
+		width: 90px;
 	}
 }
-
-// Import base typography into the cascade (if required)
-// @import "libs/typography";
-
-
-// Import form styles into the cascade (if required)
-// @import "libs/forms";
 
 
 
@@ -188,9 +200,11 @@ blockquote {
 
 // home tag
 .tag {
-	border-bottom: rel($vertical-rhythm) $border-style $primary-color;
+	border-bottom: rel($vertical-rhythm * 2) $border-style $primary-color;
+	margin: 0 0 0 -1%;
 	@include transform(rotate(2deg));
 	@include transform-origin(0 100%);
+	width: 102%;
 	@include mq($bp-small) {
 		font-size: rel($medium-font-size);
 		line-height: rel($vertical-rhythm * 4);
@@ -204,16 +218,37 @@ blockquote {
 .tag div {
 	background: $white;
 	@extend %cf;
-	margin: 0 0 0 -2.5%;
-	padding: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm * 3) 0;
-	width: 105%;
+	padding: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm * 5) 0;
+}
+
+// home start
+.start {
+	position: relative;
+	text-align: center;
+	@include transform(rotate(2deg));
+	@include transform-origin(0 100%);
+}
+
+.start a {
+	background: $primary-color;
+	color: $lighter-tertiary-color;
+	padding: rel($vertical-rhythm * 2) rel($pad);
+	position: absolute;
+	right: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	top: -(rel($vertical-rhythm * 4));
+	white-space: nowrap;
+	&:hover {
+		background: $dark-primary-color;
+	}
 }
 
 // home overview
 .overview {
-	background: $black;
+	background: $black url(/img/topo-5.png) repeat;
 	color: $lighter-tertiary-color;
-	// padding: rel($vertical-rhythm * 3) 0;
+	padding: rel($vertical-rhythm * 3) 0;
 }
 
 .overview h2 {
@@ -231,12 +266,21 @@ blockquote {
 	margin: rel($vertical-rhythm * 3) 0;
 }
 
-// home start
-.start {
-	background: $primary-color;
-	color: $lighter-tertiary-color;
-	padding: rel($vertical-rhythm * 3) 0;
+// contact area near footer
+.contact {
+	background: $secondary-color;
+	color: $darkest-secondary-color;
+	padding: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm * 2 + 55) 0;
 	text-align: center;
+	h2 {
+		font-size: rel($large-font-size);
+		line-height: rel($vertical-rhythm * 4);
+		padding: 0 0 rel($vertical-rhythm * 2) 0;
+		text-transform: uppercase;
+	}
+	a {
+		color: $darkest-secondary-color;
+	}
 }
 
 

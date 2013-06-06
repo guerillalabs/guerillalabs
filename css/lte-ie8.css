@@ -174,9 +174,27 @@ blockquote {
     transform: rotate(-10deg) skew(-20deg); }
 
 .footer {
-  clear: both; }
+  clear: both;
+  padding-top: 73px;
+  padding-bottom: 27px;
+  position: relative;
+  text-align: center; }
+  .footer p {
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 9px; }
   .footer small {
-    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    display: block;
+    font-size: 15px; }
+  .footer:after {
+    background: url(/img/crest.svg) no-repeat 0 0;
+    background-size: 100%;
+    content: "";
+    height: 110px;
+    left: 50%;
+    margin-left: -45px;
+    position: absolute;
+    top: -55px;
+    width: 90px; }
 
 .page-container {
   overflow: hidden;
@@ -205,7 +223,33 @@ blockquote {
   width: 103%; }
 
 .tag {
-  border-bottom: 9px solid #c64227;
+  border-bottom: 18px solid #c64227;
+  margin: 0 0 0 -1%;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  width: 102%; }
+  .lte-ie8 .tag {
+    font-size: 24px;
+    line-height: 36px; }
+  .lte-ie8 .tag {
+    font-size: 29px;
+    line-height: 45px; }
+
+.tag div {
+  background: #efefef;
+  padding: 27px 0 45px 0; }
+
+.start {
+  position: relative;
+  text-align: center;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
@@ -216,22 +260,24 @@ blockquote {
   -ms-transform-origin: 0 100%;
   -o-transform-origin: 0 100%;
   transform-origin: 0 100%; }
-  .lte-ie8 .tag {
-    font-size: 24px;
-    line-height: 36px; }
-  .lte-ie8 .tag {
-    font-size: 29px;
-    line-height: 45px; }
 
-.tag div {
-  background: #efefef;
-  margin: 0 0 0 -2.5%;
-  padding: 27px 0 27px 0;
-  width: 105%; }
+.start a {
+  background: #c64227;
+  color: #e0d1a2;
+  padding: 18px 18px;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: -36px;
+  white-space: nowrap; }
+  .start a:hover {
+    background: #aa3921; }
 
 .overview {
-  background: #212420;
-  color: #e0d1a2; }
+  background: #212420 url(/img/topo-5.png) repeat;
+  color: #e0d1a2;
+  padding: 27px 0; }
 
 .overview h2 {
   font-size: 29px;
@@ -245,8 +291,15 @@ blockquote {
 .overview ul {
   margin: 27px 0; }
 
-.start {
-  background: #c64227;
-  color: #e0d1a2;
-  padding: 27px 0;
+.contact {
+  background: #5c7d4d;
+  color: #2e3e26;
+  padding: 27px 0 73px 0;
   text-align: center; }
+  .contact h2 {
+    font-size: 29px;
+    line-height: 36px;
+    padding: 0 0 18px 0;
+    text-transform: uppercase; }
+  .contact a {
+    color: #2e3e26; }
