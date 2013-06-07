@@ -176,8 +176,8 @@ blockquote {
 
 .footer {
   clear: both;
-  padding-top: 73px;
-  padding-bottom: 27px;
+  padding-top: 82px;
+  padding-bottom: 63px;
   position: relative;
   text-align: center; }
   .footer p {
@@ -226,6 +226,7 @@ blockquote {
 .tag {
   border-bottom: 18px solid #c64227;
   margin: 0 0 0 -1%;
+  position: relative;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
@@ -236,7 +237,8 @@ blockquote {
   -ms-transform-origin: 0 100%;
   -o-transform-origin: 0 100%;
   transform-origin: 0 100%;
-  width: 102%; }
+  width: 102%;
+  z-index: 10; }
   .lte-ie8 .tag {
     font-size: 24px;
     line-height: 36px; }
@@ -246,7 +248,7 @@ blockquote {
 
 .tag div {
   background: #efefef;
-  padding: 27px 0 45px 0; }
+  padding: 27px 0 72px 0; }
 
 .start {
   position: relative;
@@ -259,7 +261,8 @@ blockquote {
   -moz-transform-origin: 0 100%;
   -ms-transform-origin: 0 100%;
   -o-transform-origin: 0 100%;
-  transform-origin: 0 100%; }
+  transform-origin: 0 100%;
+  z-index: 10; }
   .start .button {
     position: absolute;
     right: 0;
@@ -268,7 +271,7 @@ blockquote {
 .button {
   background: #c64227;
   color: #e0d1a2;
-  padding: 18px 38px 18px 18px;
+  padding: 1em 2.11111em 1em 1em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -282,9 +285,9 @@ blockquote {
     bottom: 0;
     content: "";
     position: absolute;
-    right: -13px;
+    right: -0.72222em;
     top: 0;
-    width: 50px; }
+    width: 2.77778em; }
   .button:hover {
     background: #aa3921; }
   .button:hover:after {
@@ -293,28 +296,37 @@ blockquote {
 .overview {
   background: #212420 url(/img/topo-5.png) repeat;
   color: #e0d1a2;
-  padding: 45px 0 27px 0; }
+  color: rgba(224, 209, 162, 0.5);
+  padding: 90px 0 72px 0;
+  position: relative;
+  z-index: 1; }
   .overview p {
     font-style: italic;
     margin: 18px 0;
     text-indent: 0; }
-    .lte-ie8 .overview p {
-      margin: 18px 54px; }
   .overview p:first-child {
     font-style: normal;
     margin: 27px 0; }
     .lte-ie8 .overview p:first-child {
       font-size: 24px;
       line-height: 36px; }
+  .overview:after {
+    background: url(/img/tile-row.png) repeat-y 50% 10px;
+    bottom: 0;
+    content: "";
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 38%; }
 
 .contact {
   background: #5c7d4d;
   color: #2e3e26;
-  padding: 27px 0 73px 0;
+  padding: 63px 0 82px 0;
   text-align: center; }
   .contact h2 {
     font-size: 29px;
-    line-height: 36px;
+    line-height: 54px;
     padding: 0 0 18px 0;
     text-transform: uppercase; }
   .contact a {

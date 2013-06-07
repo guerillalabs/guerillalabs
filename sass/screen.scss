@@ -140,8 +140,8 @@ blockquote {
 
 .footer {
 	clear:both;
-	padding-top: rel($vertical-rhythm * 2 + 55);
-	padding-bottom: rel($vertical-rhythm * 3);
+	padding-top: rel($vertical-rhythm * 3 + 55);
+	padding-bottom: rel($vertical-rhythm * 7);
 	position: relative;
 	text-align: center;
 	p {
@@ -203,9 +203,11 @@ blockquote {
 .tag {
 	border-bottom: rel($vertical-rhythm * 2) $border-style $primary-color;
 	margin: 0 0 0 -1%;
+	position: relative;
 	@include transform(rotate(2deg));
 	@include transform-origin(0 100%);
 	width: 102%;
+	z-index: 10;
 	@include mq($bp-small) {
 		font-size: rel($medium-font-size);
 		line-height: rel($vertical-rhythm * 4);
@@ -219,7 +221,7 @@ blockquote {
 .tag div {
 	background: $white;
 	@extend %cf;
-	padding: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm * 5) 0;
+	padding: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm * 8) 0;
 }
 
 // home start
@@ -227,6 +229,7 @@ blockquote {
 	position: relative;
 	@include transform(rotate(2deg));
 	@include transform-origin(0 100%);
+	z-index: 10;
 	.button {
 		position: absolute;
 		right: 0;
@@ -237,7 +240,7 @@ blockquote {
 .button {
 	background: $primary-color;
 	color: $lighter-tertiary-color;
-	padding: rel($vertical-rhythm * 2) rel(38) rel($vertical-rhythm * 2) rel($pad);
+	padding: (($vertical-rhythm * 2) / $base-font-size + 0em) (38 / $base-font-size + 0em) (($vertical-rhythm * 2) / $base-font-size + 0em) (($vertical-rhythm * 2) / $base-font-size + 0em);
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -252,9 +255,9 @@ blockquote {
 		bottom: 0;
 		content: "";
 		position: absolute;
-		right: -(rel(13));
+		right: -(13 / $base-font-size + 0em);
 		top: 0;
-		width: rel(50);
+		width: (50 / $base-font-size + 0em);
 	}
 	&:hover {
 		background: $dark-primary-color;
@@ -262,20 +265,23 @@ blockquote {
 	&:hover:after {
 		background-position: 100% 100%;
 	}
+	@include mq($bp-small, false, false, max, width) {
+		font-size: rel($small-font-size);
+	}
 }
 
 // home overview
 .overview {
 	background: $black url(/img/topo-5.png) repeat;
 	color: $lighter-tertiary-color;
-	padding: rel($vertical-rhythm * 5) 0 rel($vertical-rhythm * 3) 0;
+	color: rgba($lighter-tertiary-color, .5);
+	padding: rel($vertical-rhythm * 10) 0 rel($vertical-rhythm * 8) 0;
+	position: relative;
+	z-index: 1;
 	p {
 		font-style: italic;
 		margin: rel($vertical-rhythm * 2) 0;
 		text-indent: 0;
-		@include mq($bp-small) {
-			margin: rel($vertical-rhythm * 2) rel($pad * 3);
-		}
 	}
 	p:first-child {
 		font-style: normal;
@@ -285,17 +291,33 @@ blockquote {
 			line-height: rel($vertical-rhythm * 4);
 		}
 	}
+	&:after {
+		background: url(/img/tile-row.png) repeat-y 50% 10px;
+		bottom: 0;
+		content: "";
+		right: 0;
+		position: absolute;
+		top: 0;
+		width: 38%;
+		@include mq(($bp-small, $bp-medium), false, false, (min,max), (width,width)) {
+			background-size: 60% auto;
+			width: 31%;
+		}
+		@include mq($bp-small, false, false, max, width) {
+			content: none;
+		}
+	}
 }
 
 // contact area near footer
 .contact {
 	background: $secondary-color;
 	color: $darkest-secondary-color;
-	padding: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm * 2 + 55) 0;
+	padding: rel($vertical-rhythm * 7) 0 rel($vertical-rhythm * 3 + 55) 0;
 	text-align: center;
 	h2 {
 		font-size: rel($large-font-size);
-		line-height: rel($vertical-rhythm * 4);
+		line-height: rel($vertical-rhythm * 6);
 		padding: 0 0 rel($vertical-rhythm * 2) 0;
 		text-transform: uppercase;
 	}
