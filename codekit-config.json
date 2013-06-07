@@ -2,15 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8300",
   "files" : {
-    "\/sass\/libs\/_typography.scss" : {
-      "ignoreWasSetByUser" : 1,
+    "\/sass\/libs\/addons\/_hide-text.scss" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/_typography.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_hide-text.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/css\/_typography.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_hide-text.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -82,15 +82,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/addons\/_hide-text.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/sass\/libs\/_typography.scss" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_hide-text.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/_typography.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_hide-text.css",
+      "outputAbbreviatedPath" : "\/sass\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -350,15 +350,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/libs\/css3\/_border-image.scss" : {
+    "\/sass\/libs\/functions\/_linear-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_border-image.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_linear-gradient.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_border-image.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_linear-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -374,14 +374,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_includes\/head.html" : {
+    "\/sass\/libs\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/head.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_border-image.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_border-image.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/lte-ie8.css" : {
       "ignoreWasSetByUser" : 0,
@@ -392,17 +395,14 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/sass\/libs\/functions\/_linear-gradient.scss" : {
+    "\/_includes\/head.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_linear-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_linear-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_includes\/head.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/libs\/css3\/_transform.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -744,15 +744,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/addons\/_vertical-rhythm.scss" : {
+    "\/sass\/libs\/css3\/_background.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_vertical-rhythm.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_background.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_vertical-rhythm.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_background.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -779,18 +779,6 @@
       "initialSize" : 52136,
       "fileType" : 8192
     },
-    "\/sass\/libs\/css3\/_background.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_background.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_background.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/img\/topo-20.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -801,6 +789,18 @@
       "outputAbbreviatedPath" : "\/img\/topo-20.png",
       "initialSize" : 62145,
       "fileType" : 8192
+    },
+    "\/sass\/libs\/addons\/_vertical-rhythm.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_vertical-rhythm.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_vertical-rhythm.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/propaganda.scss" : {
       "ignoreWasSetByUser" : 0,

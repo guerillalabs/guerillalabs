@@ -105,7 +105,8 @@ a {
   white-space: -hp-pre-wrap;
   word-wrap: break-word; }
   a:hover {
-    color: #aa3921; }
+    color: #aa3921;
+    text-decoration: none; }
   a:visited {
     color: #8d2f1c; }
   a:focus, a:active {
@@ -251,7 +252,6 @@ blockquote {
 
 .start {
   position: relative;
-  text-align: center;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
@@ -262,36 +262,54 @@ blockquote {
   -ms-transform-origin: 0 100%;
   -o-transform-origin: 0 100%;
   transform-origin: 0 100%; }
+  .start .button {
+    position: absolute;
+    right: 0;
+    top: -2rem; }
 
-.start a {
+.button {
   background: #c64227;
   color: #e0d1a2;
-  padding: 1rem 1rem;
-  position: absolute;
-  right: 0;
+  padding: 1rem 2.11111rem 1rem 1rem;
+  position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  top: -2rem;
   white-space: nowrap; }
-  .start a:hover {
+  .button:hover {
+    background: #aa3921;
+    color: #e0d1a2; }
+  .button:after {
+    background: url(/img/arrow-redblack.svg) no-repeat 100% 0;
+    background-size: auto 200%;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: -0.72222rem;
+    top: 0;
+    width: 2.77778rem; }
+  .button:hover {
     background: #aa3921; }
+  .button:hover:after {
+    background-position: 100% 100%; }
 
 .overview {
   background: #212420 url(/img/topo-5.png) repeat;
   color: #e0d1a2;
-  padding: 1.5rem 0; }
-
-.overview h2 {
-  font-size: 1.618rem;
-  line-height: 2.5rem;
-  margin: 1.5rem 0; }
-
-.overview p {
-  margin: 1.5rem 0;
-  text-indent: 0; }
-
-.overview ul {
-  margin: 1.5rem 0; }
+  padding: 2.5rem 0 1.5rem 0; }
+  .overview p {
+    font-style: italic;
+    margin: 1rem 0;
+    text-indent: 0; }
+    @media screen and (min-width: 30em) {
+      .overview p {
+        margin: 1rem 3rem; } }
+  .overview p:first-child {
+    font-style: normal;
+    margin: 1.5rem 0; }
+    @media screen and (min-width: 30em) {
+      .overview p:first-child {
+        font-size: 1.30896rem;
+        line-height: 2rem; } }
 
 .contact {
   background: #5c7d4d;

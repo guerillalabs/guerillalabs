@@ -61,6 +61,7 @@ a {
 	@include force-wrap;					// force text links to wrap
 	&:hover {
 		color: $link-color-hover;
+		text-decoration: none;
 	}
 	&:visited {
 		color: $link-color-visited;
@@ -224,23 +225,42 @@ blockquote {
 // home start
 .start {
 	position: relative;
-	text-align: center;
 	@include transform(rotate(2deg));
 	@include transform-origin(0 100%);
+	.button {
+		position: absolute;
+		right: 0;
+		top: -(rel($vertical-rhythm * 4));
+	}
 }
 
-.start a {
+.button {
 	background: $primary-color;
 	color: $lighter-tertiary-color;
-	padding: rel($vertical-rhythm * 2) rel($pad);
-	position: absolute;
-	right: 0;
+	padding: rel($vertical-rhythm * 2) rel(38) rel($vertical-rhythm * 2) rel($pad);
+	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
-	top: -(rel($vertical-rhythm * 4));
 	white-space: nowrap;
 	&:hover {
 		background: $dark-primary-color;
+		color: $lighter-tertiary-color;
+	}
+	&:after {
+		background: url(/img/arrow-redblack.svg) no-repeat 100% 0;
+		background-size: auto 200%;
+		bottom: 0;
+		content: "";
+		position: absolute;
+		right: -(rel(13));
+		top: 0;
+		width: rel(50);
+	}
+	&:hover {
+		background: $dark-primary-color;
+	}
+	&:hover:after {
+		background-position: 100% 100%;
 	}
 }
 
@@ -248,22 +268,23 @@ blockquote {
 .overview {
 	background: $black url(/img/topo-5.png) repeat;
 	color: $lighter-tertiary-color;
-	padding: rel($vertical-rhythm * 3) 0;
-}
-
-.overview h2 {
-	font-size: rel($large-font-size);
-	line-height: rel($vertical-rhythm * 5);
-	margin: rel($vertical-rhythm * 3) 0;
-}
-
-.overview p {
-	margin: rel($vertical-rhythm * 3) 0;
-	text-indent: 0;
-}
-
-.overview ul {
-	margin: rel($vertical-rhythm * 3) 0;
+	padding: rel($vertical-rhythm * 5) 0 rel($vertical-rhythm * 3) 0;
+	p {
+		font-style: italic;
+		margin: rel($vertical-rhythm * 2) 0;
+		text-indent: 0;
+		@include mq($bp-small) {
+			margin: rel($vertical-rhythm * 2) rel($pad * 3);
+		}
+	}
+	p:first-child {
+		font-style: normal;
+		margin: rel($vertical-rhythm * 3) 0;
+		@include mq($bp-small) {
+			font-size: rel($medium-font-size);
+			line-height: rel($vertical-rhythm * 4);
+		}
+	}
 }
 
 // contact area near footer

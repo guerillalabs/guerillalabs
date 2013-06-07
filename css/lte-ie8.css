@@ -105,7 +105,8 @@ a {
   white-space: -hp-pre-wrap;
   word-wrap: break-word; }
   a:hover {
-    color: #aa3921; }
+    color: #aa3921;
+    text-decoration: none; }
   a:visited {
     color: #8d2f1c; }
   a:focus, a:active {
@@ -249,7 +250,6 @@ blockquote {
 
 .start {
   position: relative;
-  text-align: center;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
@@ -260,36 +260,52 @@ blockquote {
   -ms-transform-origin: 0 100%;
   -o-transform-origin: 0 100%;
   transform-origin: 0 100%; }
+  .start .button {
+    position: absolute;
+    right: 0;
+    top: -36px; }
 
-.start a {
+.button {
   background: #c64227;
   color: #e0d1a2;
-  padding: 18px 18px;
-  position: absolute;
-  right: 0;
+  padding: 18px 38px 18px 18px;
+  position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  top: -36px;
   white-space: nowrap; }
-  .start a:hover {
+  .button:hover {
+    background: #aa3921;
+    color: #e0d1a2; }
+  .button:after {
+    background: url(/img/arrow-redblack.svg) no-repeat 100% 0;
+    background-size: auto 200%;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: -13px;
+    top: 0;
+    width: 50px; }
+  .button:hover {
     background: #aa3921; }
+  .button:hover:after {
+    background-position: 100% 100%; }
 
 .overview {
   background: #212420 url(/img/topo-5.png) repeat;
   color: #e0d1a2;
-  padding: 27px 0; }
-
-.overview h2 {
-  font-size: 29px;
-  line-height: 45px;
-  margin: 27px 0; }
-
-.overview p {
-  margin: 27px 0;
-  text-indent: 0; }
-
-.overview ul {
-  margin: 27px 0; }
+  padding: 45px 0 27px 0; }
+  .overview p {
+    font-style: italic;
+    margin: 18px 0;
+    text-indent: 0; }
+    .lte-ie8 .overview p {
+      margin: 18px 54px; }
+  .overview p:first-child {
+    font-style: normal;
+    margin: 27px 0; }
+    .lte-ie8 .overview p:first-child {
+      font-size: 24px;
+      line-height: 36px; }
 
 .contact {
   background: #5c7d4d;
