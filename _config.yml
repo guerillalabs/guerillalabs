@@ -16,7 +16,7 @@ exclude:     [ sass, Rakefile, codekit-config.json, README.md ]
 
 future:      true
 show_drafts: nil
-limit_posts: 0
+limit_posts: 100
 pygments:    false
 
 relative_permalinks: false
