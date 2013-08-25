@@ -1,6 +1,6 @@
 <!doctype html>
 <!--[if (lte IE 8)&!(IEMobile)]><html class="no-js lte-ie8" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" id="guerillalabs-com"><!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" id="guerillalabs-co"><!--<![endif]-->
 <head>
     <!-- META -->
     <meta charset="UTF-8">
@@ -19,6 +19,8 @@
         {% if page.css %}
         <link rel='stylesheet' href='/css/lte-ie8.css'>
         <link rel='stylesheet' href='/css/lte-ie8-grid.css'>
+        {% else %}
+        <link rel="stylesheet" href="/css/propaganda.css">
         {% endif %}
     <![endif]-->
 
@@ -27,6 +29,9 @@
         {% if page.css %}
         <link rel='stylesheet' href='/css/screen.css'>
         <link rel='stylesheet' href='/css/grid.css'>
+            {% if site.dev %}
+            <link rel='stylesheet' href='/css/grid-overlay.css'>
+            {% endif %}
         {% else %}
         <link rel="stylesheet" href="/css/propaganda.css">
         {% endif %}
@@ -37,7 +42,7 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <!-- JS -->
-    <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
+    <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js'); document.documentElement.setAttribute('data-useragent', navigator.userAgent);</script>
 
     <script type="text/javascript" src="//use.typekit.net/ugs2jov.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>

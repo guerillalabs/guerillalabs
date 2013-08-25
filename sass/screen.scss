@@ -76,93 +76,53 @@ h1, h2, h3 , h4, h5, h6 {
 	font-weight:700;
 }
 
-/*h1*/.title {
-	color: $primary-color;
-	font-size: rel(36);
-	letter-spacing: .25em;
-	text-transform: uppercase;
-}
-
-h2 {
-	font-size: rel(21);
-}
-
 p + p {
 	text-indent: 1.5em;
 }
 
-header[role='banner'] {
-	background:$black;
-	margin-bottom:rel($vertical-rhythm * 10);
-	position:relative;
-	.graphic {
-		background:$primary-color;
-		bottom:0;
-		display:block;
-		height:8px;
-		left:0;
-		position:absolute;
-		width:100%;
+// blockquote {
+// 	background: $black;
+// 	border-top: 8px solid $secondary-color;
+// 	color: $primary-color;
+// 	float:right;
+// 	padding:rel($vertical-rhythm * 4);
+// 	width:48.64086%;
+// 	p {
+// 		font-family: $alt-font-family;
+// 		font-size: rel(21);
+// 		@include transform(rotate(-10deg) skew(-20deg));
+// 	}
+// }
+
+form {
+	margin-bottom: rel($vertical-rhythm * 8);
+	ul {
+		list-style: none;
+	}
+	li {
+		margin: 0 0 rel($vertical-rhythm * 4) 0;
+	}
+	span {
+		display: inline-block;
 	}
 }
-
-// TODO: remove the div later
-div.logo {
-	height:80px;
-	margin:0 auto;
-	position:relative;
-	width:412px;
+label {
+	display: block;
 }
-.letters {
-	position:absolute;
-	bottom:-16px;
+input, textarea {
+	border: 1px solid lighten($black, 75%);
+	display: block;
+	font-family: $base-font-family;
+	line-height: rel($base-line-height);
+	margin: rel($vertical-rhythm) 0;
+	padding: rel($vertical-rhythm) rel($pad-small);
+	width: 100%;
 }
-.mark {
-	left:229px;
-	position:absolute;
-	bottom:-13px;
-	z-index:10;
+textarea {
+	height: rel($vertical-rhythm * 27);
 }
-
-blockquote {
-	background: $black;
-	border-top: 8px solid $secondary-color;
-	color: $primary-color;
-	float:right;
-	padding:rel($vertical-rhythm * 4);
-	width:48.64086%;
-	p {
-		font-family: $alt-font-family;
-		font-size: rel(21);
-		@include transform(rotate(-10deg) skew(-20deg));
-	}
-}
-
-.footer {
-	clear:both;
-	padding-top: rel($vertical-rhythm * 3 + 55);
-	padding-bottom: rel($vertical-rhythm * 7);
-	position: relative;
+input[type='tel'] {
 	text-align: center;
-	p {
-		font-family: $alt-font-family;
-		margin-bottom: rel($vertical-rhythm)
-	}
-	small {
-		display: block;
-		font-size: rel($small-font-size);
-	}
-	&:after {
-		background: url(/img/crest.svg) no-repeat 0 0;
-		background-size: 100%;
-		content: "";
-		height: 110px;
-		left: 50%;
-		margin-left: -45px;
-		position: absolute;
-		top: -55px;
-		width: 90px;
-	}
 }
 
 
@@ -178,39 +138,132 @@ blockquote {
 	width: 100%;
 }
 
+// Hide from both screenreaders and browsers.
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+// Hide only visually, but have it available for screenreaders.
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+// Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard.
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+// Hide visually and from screenreaders, but maintain layout
+.invisible {
+    visibility: hidden;
+}
+
 
 
 // ::Module styles
 // ------------------------------------------------------------
 
+// banner
+.banner {
+	border-top: rel($vertical-rhythm * .5) $border-style $black;
+	@extend %cf;
+}
+// logo
+.banner-logo {
+	margin: rel($vertical-rhythm * 4) 0 rel($vertical-rhythm * 2) 0;
+}
+
 // home banner
-.home header {
+.banner--home {
 	background: $white;
 	border: none;
 	margin: 0;
 	overflow: hidden;
 	padding: 2% 0 3% 0;
+	.banner-logo {
+		display: block;
+		margin: 0 0 0 -1.75%;
+		width: 103%;
+		@include mq($bp-small) {
+			@include transform(rotate(2deg));
+			@include transform-origin(0 100%);
+		}
+	}
 }
-.home .logo {
-	display: block;
-	margin: 0 0 0 -1.75%;
-	@include transform(rotate(2deg));
-	@include transform-origin(0 100%);
-	width: 103%;
+
+
+
+// navigation
+.nav {
+	margin: 0 0 rel($vertical-rhythm * 6) 0;
+	ul {
+		list-style: none;
+		text-align: center;
+	}
+	li {
+		display: inline-block;
+	}
+	a {
+		color: lighten($black, 50%);
+		display: inline-block;
+		font-family: $heading-font-family;
+		font-size: rel($small-font-size);
+		font-weight: 700;
+		padding: rel($vertical-rhythm) rel($pad-small);
+		text-decoration: none;
+		text-transform: uppercase;
+		@include mq($bp-small) {
+			font-size: rel($base-font-size);
+			padding: rel($vertical-rhythm) rel($pad);
+		}
+		&:hover, &:focus {
+			background: rgba($black,.05);
+			color: lighten($black, 25%);
+		}
+	}
 }
+.about .nav-about, .blog-home .nav-blog, .blog .nav-blog, .work .nav-work, .contact .nav-contact {
+	color: lighten($black, 25%);
+}
+// home navigation
+.nav--home {
+	background: darken($white, 5%);
+	margin-bottom: rel($vertical-rhythm * 2);
+	position: relative;
+	@include mq($bp-medium) {
+		margin-bottom: 0;
+	}
+}
+
+
+
 
 // home tag
 .tag {
 	border-bottom: rel($vertical-rhythm * 2) $border-style $primary-color;
 	margin: 0 0 0 -1%;
 	position: relative;
-	@include transform(rotate(2deg));
-	@include transform-origin(0 100%);
 	width: 102%;
 	z-index: 10;
 	@include mq($bp-small) {
 		font-size: rel($medium-font-size);
 		line-height: rel($vertical-rhythm * 4);
+		@include transform(rotate(2deg));
+		@include transform-origin(0 100%);
 	}
 	@include mq($bp-medium) {
 		font-size: rel($large-font-size);
@@ -224,12 +277,17 @@ blockquote {
 	padding: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm * 8) 0;
 }
 
+
+
+
 // home start
 .start {
 	position: relative;
-	@include transform(rotate(2deg));
-	@include transform-origin(0 100%);
 	z-index: 10;
+	@include mq($bp-small) {
+		@include transform(rotate(2deg));
+		@include transform-origin(0 100%);
+	}
 	.button {
 		position: absolute;
 		right: 0;
@@ -237,38 +295,8 @@ blockquote {
 	}
 }
 
-.button {
-	background: $primary-color;
-	color: $lighter-tertiary-color;
-	padding: (($vertical-rhythm * 2) / $base-font-size + 0em) (38 / $base-font-size + 0em) (($vertical-rhythm * 2) / $base-font-size + 0em) (($vertical-rhythm * 2) / $base-font-size + 0em);
-	position: relative;
-	text-decoration: none;
-	text-transform: uppercase;
-	white-space: nowrap;
-	&:hover {
-		background: $dark-primary-color;
-		color: $lighter-tertiary-color;
-	}
-	&:after {
-		background: url(/img/arrow-redblack.svg) no-repeat 100% 0;
-		background-size: auto 200%;
-		bottom: 0;
-		content: "";
-		position: absolute;
-		right: -(13 / $base-font-size + 0em);
-		top: 0;
-		width: (50 / $base-font-size + 0em);
-	}
-	&:hover {
-		background: $dark-primary-color;
-	}
-	&:hover:after {
-		background-position: 100% 100%;
-	}
-	@include mq($bp-small, false, false, max, width) {
-		font-size: rel($small-font-size);
-	}
-}
+
+
 
 // home overview
 .overview {
@@ -309,12 +337,19 @@ blockquote {
 	}
 }
 
+
+
+
 // contact area near footer
-.contact {
+.love {
 	background: $secondary-color;
 	color: $darkest-secondary-color;
+	margin-top: rel($vertical-rhythm * 8);
 	padding: rel($vertical-rhythm * 7) 0 rel($vertical-rhythm * 3 + 55) 0;
 	text-align: center;
+	.home & {
+		margin: 0;
+	}
 	h2 {
 		font-size: rel($large-font-size);
 		line-height: rel($vertical-rhythm * 6);
@@ -323,6 +358,181 @@ blockquote {
 	}
 	a {
 		color: $darkest-secondary-color;
+	}
+}
+
+
+
+
+// posts
+.posts {
+	list-style: none;
+}
+.posts-item {
+	margin: rel($vertical-rhythm * 2) 0 rel($vertical-rhythm * 8) 0; 
+}
+.posts-meta {
+	color: lighten($black,50%);
+	font-size: rel($small-font-size);
+	font-style: italic;
+	line-height: rel($vertical-rhythm * 4);
+	@include mq($bp-small) {
+		float: right;
+		margin-left: rel($pad);
+	}
+}
+.posts-title {
+	font-size: rel($large-font-size);
+	line-height: rel($vertical-rhythm * 4);
+	margin-bottom: rel($vertical-rhythm * 2);
+}
+
+
+
+
+// pagination
+.pagination-button {
+	background: rgba($black,.05);
+	color: rgba($black,.3) !important;
+	font-family: $georgia;
+	font-size: rel($largest-font-size);
+	left: 0;
+	line-height: rel($largest-font-size);
+	margin-top: -#{rel($vertical-rhythm * 4)};
+	padding: rel($vertical-rhythm * 2) 0 rel($vertical-rhythm * 2.5) 0;
+	position: fixed;
+	text-align: center;
+	text-decoration: none;
+	top: 50%;
+	vertical-align: middle;
+	width: 11.212121212121213%;
+	&:hover {
+		background: rgba($black,.1);
+	}
+}
+.pagination-next {
+	left: auto;
+	right: 0;
+}
+
+
+
+
+// individual article
+.post {
+	h2 {
+		font-size: rel($large-font-size);
+		line-height: rel($vertical-rhythm * 4);
+		margin: rel($vertical-rhythm * 5) 0 rel($vertical-rhythm) 0;
+	}
+	h3 {
+		margin: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm) 0
+	}
+	h3 + ul {
+		margin-top: 0;
+	}
+	ul {
+		margin: rel($vertical-rhythm * 3) 0;
+	}
+	ul ul {
+		margin: 0 0 0 rel($pad-large);
+	}
+}
+.post-title {
+	color: $primary-color;
+	font-size: rel($largest-font-size);
+	line-height: rel($vertical-rhythm * 5);
+	margin-top: rel($vertical-rhythm * 10);
+	text-align: center;
+	text-transform: uppercase;
+}
+.post-meta {
+	color: lighten($black,50%);
+	font-size: rel($small-font-size);
+	font-style: italic;
+	line-height: rel($vertical-rhythm * 3);
+	margin: rel($vertical-rhythm) 0 rel($vertical-rhythm * 4) 0;
+	text-align: center;
+}
+
+
+
+
+// comments
+.comments {
+	background: darken($white, 5%);
+	color: lighten($black,25%);
+	font-style: italic;
+	margin: rel($vertical-rhythm * 10) 0 rel($vertical-rhythm * 14) 0;
+	padding: rel($vertical-rhythm) 0;
+	text-align: center;
+}
+
+
+
+
+// button
+.button {
+	background: $primary-color;
+	border: none;
+	color: $lighter-tertiary-color;
+	padding: (($vertical-rhythm * 2) / $base-font-size + 0em) (38 / $base-font-size + 0em) (($vertical-rhythm * 2) / $base-font-size + 0em) (($vertical-rhythm * 2) / $base-font-size + 0em);
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+	&:hover, &:focus {
+		background: $dark-primary-color;
+		color: $lighter-tertiary-color;
+	}
+	&:visited {
+		color: $lighter-tertiary-color;
+	}
+	&:after {
+		background: url(/img/arrow-redblack.svg) no-repeat 100% 0;
+		background-size: auto 200%;
+		bottom: 0;
+		content: "";
+		position: absolute;
+		right: -(13 / $base-font-size + 0em);
+		top: 0;
+		width: (50 / $base-font-size + 0em);
+	}
+	&:hover:after, &:focus:after {
+		background-position: 100% 100%;
+	}
+	@include mq($bp-small, false, false, max, width) {
+		font-size: rel($small-font-size);
+	}
+}
+
+
+
+
+.footer {
+	clear:both;
+	padding-top: rel($vertical-rhythm * 3 + 55);
+	padding-bottom: rel($vertical-rhythm * 7);
+	position: relative;
+	text-align: center;
+	p {
+		font-family: $alt-font-family;
+		margin-bottom: rel($vertical-rhythm);
+	}
+	small {
+		display: block;
+		font-size: rel($small-font-size);
+	}
+	&:after {
+		background: url(/img/crest.svg) no-repeat 0 0;
+		background-size: 100%;
+		content: "";
+		height: 110px;
+		left: 50%;
+		margin-left: -45px;
+		position: absolute;
+		top: -55px;
+		width: 90px;
 	}
 }
 
