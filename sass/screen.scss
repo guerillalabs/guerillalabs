@@ -131,10 +131,9 @@ p + p {
 	padding: 2% 0 3% 0;
 	.banner-logo {
 		display: block;
-		margin: rel($vertical-rhythm *2) 0 0 -1.75%;
+		margin: 0 0 0 -1.75%;
 		width: 103%;
 		@include mq($bp-small) {
-			margin-top: 0;
 			@include transform(rotate(2deg));
 			@include transform-origin(0 100%);
 		}
@@ -152,14 +151,37 @@ p + p {
 	}
 	li {
 		display: inline-block;
-		margin: 0 rel($pad-small);
+	}
+	a {
+		color: lighten($black, 50%);
+		display: inline-block;
+		font-family: $heading-font-family;
+		font-size: rel($small-font-size);
+		font-weight: 700;
+		padding: rel($vertical-rhythm) rel($pad-small);
+		text-decoration: none;
+		text-transform: uppercase;
 		@include mq($bp-small) {
-			margin: 0 rel($pad);
+			font-size: rel($base-font-size);
+			padding: rel($vertical-rhythm) rel($pad);
+		}
+		&:hover {
+			background: rgba($black,.05);
+			color: lighten($black, 25%);
 		}
 	}
 }
 .about .nav-about, .blog-home .nav-blog, .blog .nav-blog, .work .nav-work, .contact .nav-contact {
-	font-weight: bold;
+	color: lighten($black, 25%);
+}
+// home navigation
+.nav--home {
+	background: darken($white, 5%);
+	margin-bottom: rel($vertical-rhythm * 2);
+	position: relative;
+	@include mq($bp-medium) {
+		margin-bottom: 0;
+	}
 }
 
 
@@ -357,8 +379,11 @@ p + p {
 
 // comments
 .comments {
+	background: darken($white, 5%);
 	color: lighten($black,25%);
+	font-style: italic;
 	margin: rel($vertical-rhythm * 10) 0 rel($vertical-rhythm * 14) 0;
+	padding: rel($vertical-rhythm) 0;
 	text-align: center;
 }
 

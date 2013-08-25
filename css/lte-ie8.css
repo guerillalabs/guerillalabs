@@ -137,10 +137,9 @@ p + p {
   padding: 2% 0 3% 0; }
   .banner--home .banner-logo {
     display: block;
-    margin: 18px 0 0 -1.75%;
+    margin: 0 0 0 -1.75%;
     width: 103%; }
     .lte-ie8 .banner--home .banner-logo {
-      margin-top: 0;
       -webkit-transform: rotate(2deg);
       -moz-transform: rotate(2deg);
       -ms-transform: rotate(2deg);
@@ -158,13 +157,32 @@ p + p {
     list-style: none;
     text-align: center; }
   .nav li {
+    display: inline-block; }
+  .nav a {
+    color: #9fa79c;
     display: inline-block;
-    margin: 0 9px; }
-    .lte-ie8 .nav li {
-      margin: 0 18px; }
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 9px 9px;
+    text-decoration: none;
+    text-transform: uppercase; }
+    .lte-ie8 .nav a {
+      font-size: 18px;
+      padding: 9px 18px; }
+    .nav a:hover {
+      background: rgba(33, 36, 32, 0.05);
+      color: #5f685c; }
 
 .about .nav-about, .blog-home .nav-blog, .blog .nav-blog, .work .nav-work, .contact .nav-contact {
-  font-weight: bold; }
+  color: #5f685c; }
+
+.nav--home {
+  background: #e2e2e2;
+  margin-bottom: 18px;
+  position: relative; }
+  .lte-ie8 .nav--home {
+    margin-bottom: 0; }
 
 .tag {
   border-bottom: 18px solid #c64227;
@@ -315,8 +333,11 @@ p + p {
   text-align: center; }
 
 .comments {
+  background: #e2e2e2;
   color: #5f685c;
+  font-style: italic;
   margin: 90px 0 126px 0;
+  padding: 9px 0;
   text-align: center; }
 
 .button {

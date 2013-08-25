@@ -1,5 +1,5 @@
 name:        Guerilla Labs
-dev:         true
+dev:         false
 
 safe:        false
 host:        0.0.0.0
@@ -23,5 +23,5 @@ relative_permalinks: false
 
 permalink:   /:categories/:title.html
 
-paginate:    5
+paginate:    25
 paginate_path: "blog/page:num"

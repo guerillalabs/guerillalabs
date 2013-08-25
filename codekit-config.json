@@ -42,7 +42,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/script.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/script-ck.js",
       "fileType" : 64
     },
@@ -94,14 +94,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/type\/blokk\/BLOKKNeue-Regular_webfont.htm" : {
+    "\/sass\/libs\/css3\/_columns.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/type\/blokk\/BLOKKNeue-Regular_webfont.htm",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_columns.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_columns.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/libs\/css3\/_placeholder.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -112,18 +115,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_placeholder.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/libs\/css3\/_columns.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_columns.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_columns.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -198,15 +189,6 @@
       "outputAbbreviatedPath" : "\/js\/prism-ck.js",
       "fileType" : 64
     },
-    "\/type\/blokk\/BLOKKRegular_webfont.htm" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/type\/blokk\/BLOKKRegular_webfont.htm",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/sass\/libs\/addons\/_triangle.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -251,6 +233,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_posts\/2013-05-10-propaganda.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2013-05-10-propaganda.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/sass\/libs\/_reset.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -262,15 +253,6 @@
       "outputAbbreviatedPath" : "\/sass\/css\/_reset.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/_posts\/2013-05-10-propaganda.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_posts\/2013-05-10-propaganda.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/sass\/libs\/addons\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -294,8 +276,8 @@
       "fileType" : 16
     },
     "\/js\/grid-overlay.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/grid-overlay.js",
@@ -303,18 +285,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/grid-overlay-ck.js",
       "fileType" : 64
-    },
-    "\/sass\/libs\/functions\/_render-gradients.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_render-gradients.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_render-gradients.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/sass\/libs\/_utilities.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -325,6 +295,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/css\/_utilities.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/libs\/functions\/_render-gradients.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_render-gradients.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_render-gradients.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -388,18 +370,6 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/sass\/libs\/addons\/_advanced-typography.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_advanced-typography.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_advanced-typography.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/libs\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -409,6 +379,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_border-image.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/libs\/addons\/_advanced-typography.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_advanced-typography.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_advanced-typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -643,15 +625,6 @@
       "initialSize" : 5421,
       "fileType" : 8192
     },
-    "\/type\/blokk\/BLOKKRegular\/webfonts\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/type\/blokk\/BLOKKRegular\/webfonts\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/sass\/libs\/addons\/_force-wrap.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -676,17 +649,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/logo.png",
-      "initialSize" : 27278,
-      "fileType" : 8192
-    },
     "\/js\/jquery-1.8.2.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -697,6 +659,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/jquery-1.8.2.min-ck.js",
       "fileType" : 64
+    },
+    "\/img\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/logo.png",
+      "initialSize" : 27278,
+      "fileType" : 8192
     },
     "\/sass\/libs\/addons\/_max-width.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -764,14 +737,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_posts\/2013-01-31-propaganda.html" : {
+    "\/img\/topo-20.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_posts\/2013-01-31-propaganda.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/topo-20.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/topo-20.png",
+      "initialSize" : 62145,
+      "fileType" : 8192
     },
     "\/sass\/libs\/functions\/_units.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -809,17 +784,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/topo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/topo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/topo.png",
-      "initialSize" : 52136,
-      "fileType" : 8192
-    },
     "\/sass\/libs\/css3\/_background.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -832,23 +796,32 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/topo-20.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/topo-20.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/topo-20.png",
-      "initialSize" : 62145,
-      "fileType" : 8192
-    },
     "\/_posts\/2013-06-13-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_posts\/2013-06-13-propaganda.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/topo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/topo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/topo.png",
+      "initialSize" : 52136,
+      "fileType" : 8192
+    },
+    "\/_posts\/2013-01-31-propaganda.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2013-01-31-propaganda.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1010,15 +983,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/type\/blokk\/BLOKKNeue-Regular\/webfonts\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/type\/blokk\/BLOKKNeue-Regular\/webfonts\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/sass\/grid-overlay.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1030,17 +994,6 @@
       "outputAbbreviatedPath" : "\/css\/grid-overlay.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/grid-overlay-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/grid-overlay-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/grid-overlay-ck-ck.js",
-      "fileType" : 64
     },
     "\/css\/lte-ie8-grid.css" : {
       "ignoreWasSetByUser" : 0,

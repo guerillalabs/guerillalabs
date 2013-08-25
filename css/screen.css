@@ -137,11 +137,10 @@ p + p {
   padding: 2% 0 3% 0; }
   .banner--home .banner-logo {
     display: block;
-    margin: 1rem 0 0 -1.75%;
+    margin: 0 0 0 -1.75%;
     width: 103%; }
     @media screen and (min-width: 30em) {
       .banner--home .banner-logo {
-        margin-top: 0;
         -webkit-transform: rotate(2deg);
         -moz-transform: rotate(2deg);
         -ms-transform: rotate(2deg);
@@ -159,14 +158,34 @@ p + p {
     list-style: none;
     text-align: center; }
   .nav li {
+    display: inline-block; }
+  .nav a {
+    color: #9fa79c;
     display: inline-block;
-    margin: 0 0.5rem; }
+    font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.809rem;
+    font-weight: 700;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase; }
     @media screen and (min-width: 30em) {
-      .nav li {
-        margin: 0 1rem; } }
+      .nav a {
+        font-size: 1rem;
+        padding: 0.5rem 1rem; } }
+    .nav a:hover {
+      background: rgba(33, 36, 32, 0.05);
+      color: #5f685c; }
 
 .about .nav-about, .blog-home .nav-blog, .blog .nav-blog, .work .nav-work, .contact .nav-contact {
-  font-weight: bold; }
+  color: #5f685c; }
+
+.nav--home {
+  background: #e2e2e2;
+  margin-bottom: 1rem;
+  position: relative; }
+  @media screen and (min-width: 48em) {
+    .nav--home {
+      margin-bottom: 0; } }
 
 .tag {
   border-bottom: 1rem solid #c64227;
@@ -329,8 +348,11 @@ p + p {
   text-align: center; }
 
 .comments {
+  background: #e2e2e2;
   color: #5f685c;
+  font-style: italic;
   margin: 5rem 0 7rem 0;
+  padding: 0.5rem 0;
   text-align: center; }
 
 .button {
