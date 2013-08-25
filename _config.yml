@@ -1,4 +1,5 @@
 name:        Guerilla Labs
+dev:         true
 
 safe:        false
 host:        0.0.0.0
@@ -16,10 +17,11 @@ exclude:     [ sass, Rakefile, codekit-config.json, README.md ]
 
 future:      true
 show_drafts: nil
-limit_posts: 100
 pygments:    false
 
 relative_permalinks: false
 
 permalink:   /:categories/:title.html
-paginate_path: 'page:num'
+
+paginate:    5
+paginate_path: "blog/page:num"

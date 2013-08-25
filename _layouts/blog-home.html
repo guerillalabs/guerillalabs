@@ -1,18 +1,34 @@
----
-layout: blog home
----
 {% include head.html %}
 {% include header.html %}
 
-<article class="l2-l5">
-<h1 class='title'>{{ page.title }}</h1>
-{{ content }}
-</article>
+<div class="l-all m-all s-all">
 
-{% for post in site.posts %}
-    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-    <p>{{ post.excerpt }}</p>
-{% endfor %}
+  <ol class="posts l2-l5 m2-m5 s2-s3" start="{{ paginator.page | times:paginator.per_page | minus:paginator.per_page | plus:1 }}">
+  {% for post in paginator.posts %}
+      <li class="posts-item">
+        <div class="posts-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+        <h2 class="posts-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+      </li>
+  {% endfor %}
+  </ol>
+
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+          <a href="/blog" class="pagination-previous pagination-button">&#8249;</a>
+      {% else %}
+          <a href="{{ paginator.previous_page_path }}" class="pagination-previous pagination-button">&#8249;</a>
+      {% endif %}
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="pagination-next pagination-button">&#8250;</a>
+    {% endif %}
+  </div>
+
+</div>
 
 
 {% include footer.html %}

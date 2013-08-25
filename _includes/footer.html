@@ -4,8 +4,8 @@
     </div>
     <footer class="main footer l-all m-all s-all l-padinfull m-padinfull s-padinfull">
         <p>Guerilla Labs thanks you for your&nbsp;participation.</p>
-        <small>All Rights Reserved</small>
+        <small>&copy; {{ site.time | date: "%Y" }} Guerilla Labs, LLC. All Rights Reserved</small>
     </footer>
-    <script src='/js/gridset-overlay.js'></script>
+    {% if site.dev %}<script src='/js/grid-overlay.js'></script>{% endif %}
 </body>
 </html>

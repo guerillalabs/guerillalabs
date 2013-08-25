@@ -1,13 +1,18 @@
----
-layout: blog
----
 {% include head.html %}
 {% include header.html %}
 
-<article class="l2-l5">
-<h1 class='title'>{{ page.title }}</h1>
-{{ content }}
-</article>
+<div class="l-all m-all s-all">
+	<article class="post l2-l5 m2-m5 s2-s3" role="main">
+		<h1 class='post-title'>{{ page.title }}</h1>
+		<div class="post-meta">
+		    <span class="post-meta-author">by {{ page.author }}</span>
+		    <span class="post-meta-date">on {{ page.date | date: "%B %d, %Y" }}</span>
+		</div>
+		{{ content }}
+	</article>
+
+	<div class="comments l2-l5 m2-m5 s2-s3">You can discuss this post on twitter with {% if page.author == 'Jacob Fentress' %}<a href="http://twitter.com/?status=@jfentress">@jfentress</a>{% elsif page.author == 'Nick Pruitt' %}<a href="http://twitter.com/?status=@nerdpruitt">@nerdpruitt</a>{% elsif page.author == 'Brandon Woodall' %}<a href="http://twitter.com/?status=@W00D_MAN">@W00D_MAN</a>{% elsif page.author == 'Justin Aven' %}<a href="http://twitter.com/?status=@JustinAven">@JustinAven</a>{% endif %}.</div>
+</div>
 
 
 {% include footer.html %}
