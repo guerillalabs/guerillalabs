@@ -425,6 +425,18 @@ input[type='tel'] {
 		line-height: rel($vertical-rhythm * 4);
 		margin: rel($vertical-rhythm * 5) 0 rel($vertical-rhythm) 0;
 	}
+	h3 {
+		margin: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm) 0
+	}
+	h3 + ul {
+		margin-top: 0;
+	}
+	ul {
+		margin: rel($vertical-rhythm * 3) 0;
+	}
+	ul ul {
+		margin: 0 0 0 rel($pad-large);
+	}
 }
 .post-title {
 	color: $primary-color;

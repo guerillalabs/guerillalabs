@@ -371,6 +371,14 @@ input[type='tel'] {
   font-size: 29px;
   line-height: 36px;
   margin: 45px 0 9px 0; }
+.post h3 {
+  margin: 27px 0 9px 0; }
+.post h3 + ul {
+  margin-top: 0; }
+.post ul {
+  margin: 27px 0; }
+.post ul ul {
+  margin: 0 0 0 27px; }
 
 .post-title {
   color: #c64227;
