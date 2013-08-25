@@ -119,9 +119,62 @@ h1, h2, h3, h4, h5, h6 {
 p + p {
   text-indent: 1.5em; }
 
+form {
+  margin-bottom: 72px; }
+  form ul {
+    list-style: none; }
+  form li {
+    margin: 0 0 36px 0; }
+  form span {
+    display: inline-block; }
+
+label {
+  display: block; }
+
+input, textarea {
+  border: 1px solid #e0e3e0;
+  display: block;
+  font-family: "adelle", Georgia, Cambria, "Times New Roman", Times, serif;
+  line-height: 27px;
+  margin: 9px 0;
+  padding: 9px 9px;
+  width: 100%; }
+
+textarea {
+  height: 243px; }
+
+input[type='tel'] {
+  text-align: center; }
+
 .page-container {
   overflow: hidden;
   width: 100%; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+.invisible {
+  visibility: hidden; }
 
 .banner {
   border-top: 5px solid #212420; }
@@ -170,7 +223,7 @@ p + p {
     .lte-ie8 .nav a {
       font-size: 18px;
       padding: 9px 18px; }
-    .nav a:hover {
+    .nav a:hover, .nav a:focus {
       background: rgba(33, 36, 32, 0.05);
       color: #5f685c; }
 
@@ -256,17 +309,20 @@ p + p {
     top: 0;
     width: 38%; }
 
-.contact {
+.love {
   background: #5c7d4d;
   color: #2e3e26;
+  margin-top: 72px;
   padding: 63px 0 82px 0;
   text-align: center; }
-  .contact h2 {
+  .home .love {
+    margin: 0; }
+  .love h2 {
     font-size: 29px;
     line-height: 54px;
     padding: 0 0 18px 0;
     text-transform: uppercase; }
-  .contact a {
+  .love a {
     color: #2e3e26; }
 
 .posts {
@@ -342,14 +398,17 @@ p + p {
 
 .button {
   background: #c64227;
+  border: none;
   color: #e0d1a2;
   padding: 1em 2.11111em 1em 1em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap; }
-  .button:hover {
+  .button:hover, .button:focus {
     background: #aa3921;
+    color: #e0d1a2; }
+  .button:visited {
     color: #e0d1a2; }
   .button:after {
     background: url(/img/arrow-redblack.svg) no-repeat 100% 0;
@@ -360,9 +419,7 @@ p + p {
     right: -0.72222em;
     top: 0;
     width: 2.77778em; }
-  .button:hover {
-    background: #aa3921; }
-  .button:hover:after {
+  .button:hover:after, .button:focus:after {
     background-position: 100% 100%; }
 
 .footer {

@@ -94,6 +94,37 @@ p + p {
 // 	}
 // }
 
+form {
+	margin-bottom: rel($vertical-rhythm * 8);
+	ul {
+		list-style: none;
+	}
+	li {
+		margin: 0 0 rel($vertical-rhythm * 4) 0;
+	}
+	span {
+		display: inline-block;
+	}
+}
+label {
+	display: block;
+}
+input, textarea {
+	border: 1px solid lighten($black, 75%);
+	display: block;
+	font-family: $base-font-family;
+	line-height: rel($base-line-height);
+	margin: rel($vertical-rhythm) 0;
+	padding: rel($vertical-rhythm) rel($pad-small);
+	width: 100%;
+}
+textarea {
+	height: rel($vertical-rhythm * 27);
+}
+input[type='tel'] {
+	text-align: center;
+}
+
 
 
 // ::Layout styles
@@ -105,6 +136,40 @@ p + p {
 .page-container {
 	overflow: hidden;
 	width: 100%;
+}
+
+// Hide from both screenreaders and browsers.
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+// Hide only visually, but have it available for screenreaders.
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+// Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard.
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+// Hide visually and from screenreaders, but maintain layout
+.invisible {
+    visibility: hidden;
 }
 
 
@@ -165,7 +230,7 @@ p + p {
 			font-size: rel($base-font-size);
 			padding: rel($vertical-rhythm) rel($pad);
 		}
-		&:hover {
+		&:hover, &:focus {
 			background: rgba($black,.05);
 			color: lighten($black, 25%);
 		}
@@ -276,11 +341,15 @@ p + p {
 
 
 // contact area near footer
-.contact {
+.love {
 	background: $secondary-color;
 	color: $darkest-secondary-color;
+	margin-top: rel($vertical-rhythm * 8);
 	padding: rel($vertical-rhythm * 7) 0 rel($vertical-rhythm * 3 + 55) 0;
 	text-align: center;
+	.home & {
+		margin: 0;
+	}
 	h2 {
 		font-size: rel($large-font-size);
 		line-height: rel($vertical-rhythm * 6);
@@ -393,14 +462,18 @@ p + p {
 // button
 .button {
 	background: $primary-color;
+	border: none;
 	color: $lighter-tertiary-color;
 	padding: (($vertical-rhythm * 2) / $base-font-size + 0em) (38 / $base-font-size + 0em) (($vertical-rhythm * 2) / $base-font-size + 0em) (($vertical-rhythm * 2) / $base-font-size + 0em);
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
 	white-space: nowrap;
-	&:hover {
+	&:hover, &:focus {
 		background: $dark-primary-color;
+		color: $lighter-tertiary-color;
+	}
+	&:visited {
 		color: $lighter-tertiary-color;
 	}
 	&:after {
@@ -413,10 +486,7 @@ p + p {
 		top: 0;
 		width: (50 / $base-font-size + 0em);
 	}
-	&:hover {
-		background: $dark-primary-color;
-	}
-	&:hover:after {
+	&:hover:after, &:focus:after {
 		background-position: 100% 100%;
 	}
 	@include mq($bp-small, false, false, max, width) {
