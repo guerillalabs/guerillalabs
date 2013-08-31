@@ -6,6 +6,7 @@
         <p>Guerilla Labs thanks you for your&nbsp;participation.</p>
         <small>&copy; {{ site.time | date: "%Y" }} Guerilla Labs, LLC. All Rights Reserved</small>
     </footer>
+    {% if page.code %}<script src='/js/prism.js'></script>{% endif %}
     {% if site.dev %}<script src='/js/grid-overlay.js'></script>{% endif %}
 </body>
 </html>

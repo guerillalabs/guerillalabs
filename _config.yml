@@ -8,6 +8,7 @@ port:        4000
 baseurl:     /
 url:         http://guerillalabs.co
 lsi:         false
+markdown:    kramdown
 
 source:      .
 destination: ./_site
