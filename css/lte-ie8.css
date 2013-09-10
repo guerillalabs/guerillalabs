@@ -379,6 +379,12 @@ input[type='tel'] {
   margin: 27px 0; }
 .post ul ul {
   margin: 0 0 0 27px; }
+.post blockquote {
+  background: #e2e2e2;
+  color: #5f685c;
+  font-style: italic;
+  margin: 27px 0;
+  padding: 27px 27px; }
 .post .note {
   background: #212420;
   color: #efefef;

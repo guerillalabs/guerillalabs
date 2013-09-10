@@ -437,6 +437,14 @@ input[type='tel'] {
 	ul ul {
 		margin: 0 0 0 rel($pad-large);
 	}
+	blockquote {
+		background: darken($white, 5%);
+		color: lighten($black,25%);
+		font-style: italic;
+		margin: rel($vertical-rhythm * 3) 0;
+		padding: rel($vertical-rhythm * 3) rel($pad-large);
+
+	}
 	.note {
 		background: $black;
 		color: $white;

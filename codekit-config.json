@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8317",
+  "creatorBuild" : "8322",
   "files" : {
     "\/sass\/libs\/_typography.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -317,16 +317,17 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/js\/grid-overlay.js" : {
+    "\/sass\/libs\/_utilities.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/grid-overlay.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/grid-overlay-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/sass\/libs\/_utilities.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/css\/_utilities.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/libs\/functions\/_render-gradients.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -340,17 +341,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/_utilities.scss" : {
+    "\/js\/grid-overlay.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/_utilities.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/css\/_utilities.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/grid-overlay.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/grid-overlay-ck.js",
+      "fileType" : 64
     },
     "\/sass\/_settings.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -403,17 +403,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/libs\/css3\/_border-image.scss" : {
+    "\/css\/lte-ie8.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_border-image.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_border-image.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/css\/lte-ie8.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
     },
     "\/sass\/libs\/addons\/_advanced-typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -427,14 +424,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/lte-ie8.css" : {
+    "\/sass\/libs\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/lte-ie8.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_border-image.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_border-image.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/libs\/css3\/_transform.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -445,6 +445,27 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_transform.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_layouts\/propaganda.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/propaganda.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sass\/libs\/functions\/_compact.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_compact.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_compact.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -459,18 +480,6 @@
       "initialSize" : 1228,
       "fileType" : 8192
     },
-    "\/sass\/libs\/functions\/_compact.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_compact.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_compact.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/libs\/css3\/_keyframes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -483,14 +492,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_layouts\/propaganda.html" : {
+    "\/sass\/libs\/css3\/_box-sizing.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/propaganda.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_box-sizing.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_box-sizing.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/libs\/functions\/_modular-scale.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -501,18 +513,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_modular-scale.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/libs\/css3\/_box-sizing.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_box-sizing.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_box-sizing.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -684,17 +684,6 @@
       "initialSize" : 807,
       "fileType" : 8192
     },
-    "\/apple-touch-icon-114x114-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
-      "initialSize" : 698,
-      "fileType" : 8192
-    },
     "\/sass\/libs\/functions\/_contrasted-color.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -716,6 +705,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/assets\/Tiled.sketch\/QuickLook\/Preview.png",
       "initialSize" : 5421,
+      "fileType" : 8192
+    },
+    "\/apple-touch-icon-114x114-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
+      "initialSize" : 698,
       "fileType" : 8192
     },
     "\/propaganda\/apple-touch-icon-144x144-precomposed.png" : {
@@ -764,15 +764,6 @@
       "outputAbbreviatedPath" : "\/js\/jquery-1.8.2.min-ck.js",
       "fileType" : 64
     },
-    "\/blog\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/blog\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -783,6 +774,15 @@
       "outputAbbreviatedPath" : "\/img\/logo.png",
       "initialSize" : 27278,
       "fileType" : 8192
+    },
+    "\/blog\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/blog\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_posts\/2012-11-16-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
@@ -829,26 +829,25 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/css3\/_radial-gradient.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_radial-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_radial-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_posts\/2013-06-13-propaganda.html" : {
+    "\/_posts\/2013-01-31-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_posts\/2013-06-13-propaganda.html",
+      "inputAbbreviatedPath" : "\/_posts\/2013-01-31-propaganda.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/img\/topo-20.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/topo-20.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/topo-20.png",
+      "initialSize" : 62145,
+      "fileType" : 8192
     },
     "\/sass\/libs\/functions\/_units.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -862,28 +861,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/libs\/css3\/_background.scss" : {
+    "\/sass\/libs\/addons\/_vertical-rhythm.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_background.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_vertical-rhythm.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_background.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_vertical-rhythm.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/topo-20.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/topo-20.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/topo-20.png",
-      "initialSize" : 62145,
-      "fileType" : 8192
     },
     "\/sass\/libs\/addons\/_font-family.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -894,27 +882,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_font-family.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_posts\/2013-01-31-propaganda.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_posts\/2013-01-31-propaganda.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/sass\/libs\/addons\/_vertical-rhythm.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/addons\/_vertical-rhythm.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_vertical-rhythm.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -929,14 +896,38 @@
       "initialSize" : 52136,
       "fileType" : 8192
     },
-    "\/_layouts\/blog.html" : {
+    "\/_posts\/2013-06-13-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/blog.html",
+      "inputAbbreviatedPath" : "\/_posts\/2013-06-13-propaganda.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/sass\/libs\/css3\/_background.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_background.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_background.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/libs\/css3\/_radial-gradient.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_radial-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_radial-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/propaganda.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -949,6 +940,15 @@
       "outputAbbreviatedPath" : "\/css\/propaganda.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_layouts\/blog.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/blog.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_posts\/2012-10-30-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
