@@ -15,7 +15,7 @@ I've been thinking a lot lately about all the new software, frameworks, and tech
 
 There is this pull that I feel -- and I've heard a similar sentiment from others -- to learn the new technique, to read another blog post, to refactor my new project framework, to do anything other than actually tackling the work at hand. Yeah, that risks doing things in a way that may not be the *very best way* to do them as of this morning, but is that such a bad thing?
 
-Does the perceived need to be on top of these things actually keep us from producting our best work?
+Does the perceived need to be on top of these things actually keep us from producing our best work?
 
 Yeah, it's important to refactor code. Yeah, you need to keep up with the things that are happening in this industry. Yeah, you need to constantly learn new skills to remain relevant and valuable. But it can't be done at the expense of moving forward.
 
