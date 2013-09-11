@@ -385,6 +385,13 @@ input[type='tel'] {
   font-style: italic;
   margin: 27px 0;
   padding: 27px 27px; }
+.post img {
+  border: 9px solid #e2e2e2;
+  display: block;
+  margin: 27px auto;
+  max-width: 100%; }
+  .lte-ie8 .post img {
+    border: 18px solid #e2e2e2; }
 .post .note {
   background: #212420;
   color: #efefef;

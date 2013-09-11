@@ -443,7 +443,15 @@ input[type='tel'] {
 		font-style: italic;
 		margin: rel($vertical-rhythm * 3) 0;
 		padding: rel($vertical-rhythm * 3) rel($pad-large);
-
+	}
+	img {
+		border: rel($vertical-rhythm) solid darken($white, 5%);
+		display: block;
+		margin: rel($vertical-rhythm * 3) auto;
+		max-width: 100%;
+		@include mq($bp-small) {
+			border: rel($vertical-rhythm * 2) solid darken($white, 5%);
+		}
 	}
 	.note {
 		background: $black;

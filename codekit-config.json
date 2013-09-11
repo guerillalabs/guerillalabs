@@ -180,6 +180,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/posts\/less-is-fantastic\/fantasticons1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons1.jpg",
+      "initialSize" : 46690,
+      "fileType" : 4096
+    },
     "\/_includes\/propaganda-footer.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -253,6 +264,17 @@
       "outputAbbreviatedPath" : "\/propaganda\/star.png",
       "initialSize" : 330,
       "fileType" : 8192
+    },
+    "\/img\/posts\/less-is-fantastic\/fantasticons2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons2.jpg",
+      "initialSize" : 4719,
+      "fileType" : 4096
     },
     "\/_posts\/2013-06-04-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
@@ -328,18 +350,6 @@
       "outputAbbreviatedPath" : "\/js\/grid-overlay-ck.js",
       "fileType" : 64
     },
-    "\/sass\/libs\/functions\/_render-gradients.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_render-gradients.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_render-gradients.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/libs\/_utilities.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -349,6 +359,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/css\/_utilities.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/libs\/functions\/_render-gradients.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_render-gradients.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_render-gradients.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -373,18 +395,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/libs\/functions\/_linear-gradient.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_linear-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_linear-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css\/grid-overlay.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -392,24 +402,6 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/grid-overlay.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_includes\/head.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/head.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/css\/lte-ie8.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/lte-ie8.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/sass\/libs\/addons\/_advanced-typography.scss" : {
@@ -423,6 +415,36 @@
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_advanced-typography.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/sass\/libs\/functions\/_linear-gradient.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_linear-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_linear-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/lte-ie8.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/lte-ie8.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
+    "\/_includes\/head.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_includes\/head.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/libs\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -457,18 +479,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/libs\/functions\/_compact.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_compact.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_compact.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/libs\/css3\/_keyframes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -492,17 +502,28 @@
       "initialSize" : 1228,
       "fileType" : 8192
     },
-    "\/sass\/libs\/functions\/_modular-scale.scss" : {
+    "\/sass\/libs\/functions\/_compact.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_modular-scale.scss",
+      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_compact.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_modular-scale.css",
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_compact.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/posts\/less-is-fantastic\/fantasticons3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons3.jpg",
+      "initialSize" : 35202,
+      "fileType" : 4096
     },
     "\/sass\/libs\/css3\/_box-sizing.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -513,6 +534,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_box-sizing.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/libs\/functions\/_modular-scale.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/libs\/functions\/_modular-scale.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_modular-scale.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -602,6 +635,17 @@
       "inputAbbreviatedPath" : "\/contact\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/img\/posts\/less-is-fantastic\/fantasticons4.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons4.jpg",
+      "initialSize" : 43960,
+      "fileType" : 4096
     },
     "\/_includes\/footer.html" : {
       "ignoreWasSetByUser" : 0,
@@ -695,17 +739,6 @@
       "initialSize" : 698,
       "fileType" : 8192
     },
-    "\/img\/assets\/Tiled.sketch\/QuickLook\/Preview.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/assets\/Tiled.sketch\/QuickLook\/Preview.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/assets\/Tiled.sketch\/QuickLook\/Preview.png",
-      "initialSize" : 5421,
-      "fileType" : 8192
-    },
     "\/sass\/libs\/functions\/_contrasted-color.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -717,6 +750,17 @@
       "outputAbbreviatedPath" : "\/sass\/libs\/css\/_contrasted-color.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/assets\/Tiled.sketch\/QuickLook\/Preview.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/assets\/Tiled.sketch\/QuickLook\/Preview.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/assets\/Tiled.sketch\/QuickLook\/Preview.png",
+      "initialSize" : 5421,
+      "fileType" : 8192
     },
     "\/propaganda\/apple-touch-icon-144x144-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -741,6 +785,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/posts\/less-is-fantastic\/fantasticons5.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons5.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/posts\/less-is-fantastic\/fantasticons5.jpg",
+      "initialSize" : 27967,
+      "fileType" : 4096
+    },
     "\/sass\/lte-ie8.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -753,17 +808,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/jquery-1.8.2.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery-1.8.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery-1.8.2.min-ck.js",
-      "fileType" : 64
-    },
     "\/img\/logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -774,6 +818,15 @@
       "outputAbbreviatedPath" : "\/img\/logo.png",
       "initialSize" : 27278,
       "fileType" : 8192
+    },
+    "\/blog\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/blog\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/libs\/addons\/_max-width.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -808,14 +861,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/blog\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/js\/jquery-1.8.2.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/blog\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/jquery-1.8.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery-1.8.2.min-ck.js",
+      "fileType" : 64
     },
     "\/sass\/libs\/css3\/_transition.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -829,23 +884,28 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_posts\/2013-06-13-propaganda.html" : {
+    "\/sass\/libs\/css3\/_radial-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_posts\/2013-06-13-propaganda.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_radial-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_radial-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
-    "\/_posts\/2013-01-31-propaganda.html" : {
+    "\/img\/topo-20.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_posts\/2013-01-31-propaganda.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/topo-20.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/topo-20.png",
+      "initialSize" : 62145,
+      "fileType" : 8192
     },
     "\/sass\/libs\/functions\/_units.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -906,28 +966,23 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/topo-20.png" : {
+    "\/_posts\/2013-01-31-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/topo-20.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/topo-20.png",
-      "initialSize" : 62145,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/_posts\/2013-01-31-propaganda.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/sass\/libs\/css3\/_radial-gradient.scss" : {
+    "\/_posts\/2013-06-13-propaganda.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/libs\/css3\/_radial-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/libs\/css\/_radial-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_posts\/2013-06-13-propaganda.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/propaganda.scss" : {
       "ignoreWasSetByUser" : 0,

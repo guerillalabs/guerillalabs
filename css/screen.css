@@ -400,6 +400,14 @@ input[type='tel'] {
   font-style: italic;
   margin: 1.5rem 0;
   padding: 1.5rem 1.5rem; }
+.post img {
+  border: 0.5rem solid #e2e2e2;
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%; }
+  @media screen and (min-width: 30em) {
+    .post img {
+      border: 1rem solid #e2e2e2; } }
 .post .note {
   background: #212420;
   color: #efefef;
