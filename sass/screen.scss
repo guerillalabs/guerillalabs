@@ -369,7 +369,7 @@ input[type='tel'] {
 	list-style: none;
 }
 .posts-item {
-	margin: rel($vertical-rhythm * 2) 0 rel($vertical-rhythm * 8) 0; 
+	margin: rel($vertical-rhythm * 2) 0 rel($vertical-rhythm * 8) 0;
 }
 .posts-meta {
 	color: lighten($black,50%);
@@ -428,13 +428,13 @@ input[type='tel'] {
 	h3 {
 		margin: rel($vertical-rhythm * 3) 0 rel($vertical-rhythm) 0
 	}
-	h3 + ul {
+	h3 + ul , h3 + ol {
 		margin-top: 0;
 	}
-	ul {
+	ul, ol {
 		margin: rel($vertical-rhythm * 3) 0;
 	}
-	ul ul {
+	ul ul, ul ol, ol ul, ol ol {
 		margin: 0 0 0 rel($pad-large);
 	}
 	blockquote {
