@@ -50,6 +50,8 @@ Not much there, and this will simply write "Hello, world!" to the terminal when 
 
 Now, open the folder where you saved hello.js in the terminal. I recommend dragging the folder to the terminal icon in the dock as an easy way to open a terminal window with the path already set to the desired directory.
 
+<img src="/img/posts/introducting-phantomjs/open.gif" alt="opening a folder in terminal">
+
 In your terminal you'll type <code class="language-markup">phantomjs hello.js</code>. The "hello.js" part can be changed to be any JavaScript file that you want PhantomJS to execute. Run that command and you should see your very exciting message printed out.
 
 Fun! But let's get to something real.
