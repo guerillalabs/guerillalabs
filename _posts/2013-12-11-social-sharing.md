@@ -84,6 +84,20 @@ Change <code class="language-markup">{url_encoded_url}</code> and <code class="l
 
 And it will look like, <a href="http://www.reddit.com/submit?url=http%3A%2F%2Fguerillalabs.co/blog/social-sharing.html&amp;title=I%20Love%20Guerilla%20Labs%21">Share on Reddit</a>, on your page.
 
+## LinkedIn
+
+For LinkedIn, you'll need this:
+
+<pre><code class="language-markup">&lt;a href=&quot;http://www.linkedin.com/shareArticle?mini=true&amp;url={url_encoded_url}&amp;title={url_encoded_title}&quot;&gt;Share on LinkedIn&lt;/a&gt;</code></pre>
+
+Change <code class="language-markup">{url_encoded_url}</code> and <code class="language-markup">{url_encoded_title}</code> to fit your needs. A final link would be formatted like:
+
+<pre><code class="language-markup">&lt;a href=&quot;http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fguerillalabs.co/blog/social-sharing.html&amp;title=I%20Love%20Guerilla%20Labs%21&quot;&gt;Share on LinkedIn&lt;/a&gt;</code></pre>
+
+And it will look like, <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fguerillalabs.co/blog/social-sharing.html&amp;title=I%20Love%20Guerilla%20Labs%21">Share on LinkedIn</a>, on your page.
+
+There are a couple of other parameters you can use for LinkedIn share links – source and summary – which you can read about [in their documentation](https://developer.linkedin.com/documents/share-linkedin).
+
 ## Pinterest
 
 Since Pinterest requires an image to share, these links are slightly more involved.  You can get a lot more information about the specific requirements, like recommended image dimensions, from their [developer site](http://developers.pinterest.com/pin_it/). You can go very deep with what is possible on Pinterest, but a simple sharing link looks like:
@@ -109,12 +123,12 @@ Google can use several methods to determine the content of the share ([read more
 
 The Open Graph tags go in the <code class="language-markup">&lt;head&gt;</code> element of your page. These are the tags that I recommend:
 
-<pre><code class="language-markup">&lt;meta property=&quot;og:title&quot; content=&quot;{url_encoded_title}&quot;&gt;
-&lt;meta property=&quot;og:image&quot; content=&quot;{url_encoded_image_url}&quot;&gt;
-&lt;meta property=&quot;og:description&quot; content=&quot;{url_encoded_description}&quot;&gt;
-&lt;meta property=&quot;og:site_name&quot; content=&quot;{url_encoded_site_name}&quot;&gt;</code></pre>
+<pre><code class="language-markup">&lt;meta property=&quot;og:title&quot; content=&quot;{title}&quot;&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;{image_url}&quot;&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;{description}&quot;&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;{site_name}&quot;&gt;</code></pre>
 
-If you've followed along this far, you'll be able to make sense of the <code class="language-markup">content=</code> portion of each of those four tags.
+If you've followed along this far, you'll be able to make sense of the <code class="language-markup">content=</code> portion of each of those four tags. Note that this is the one scenario where we do not need to use URL encoding (because these values are on our page and not in a URL).
 
 Once that is in place, the actual share links are pretty simple. For Facebook:
 
