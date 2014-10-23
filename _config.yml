@@ -19,7 +19,7 @@ exclude:     [ sass, Rakefile, codekit-config.json, README.md ]
 
 future:      true
 show_drafts: nil
-pygments:    false
+highlighter: null
 
 relative_permalinks: false
 
