@@ -23,17 +23,17 @@ Here at Guerilla Labs, we use Sass *a lot*. Often, I'll define some silent class
 Then, while defining a module, I would like to do something like:
 
 <pre><code class="language-css">.module {
-    @extends %vertical-margin-s;
+    @extend %vertical-margin-s;
 
     @media (min-width: 400px) {
-        @extends %vertical-margin-m;
+        @extend %vertical-margin-m;
     }
     @media (min-width: 600px) {
-        @extends %vertical-margin-l;
+        @extend %vertical-margin-l;
     }
 }</code></pre>
 
-But Sass doesn't like that and won't allow you to perform an <code class="language-css">@extends</code> from within a media query.
+But Sass doesn't like that and won't allow you to perform an <code class="language-css">@extend</code> from within a media query.
 
 Fortunately, there is another way because the extended silent class can have media queries, which then carry over to the extending element. So, do this instead:
 
@@ -49,7 +49,7 @@ Fortunately, there is another way because the extended silent class can have med
 }
 
 .module {
-    @extends %vertical-margin-l;
+    @extend %vertical-margin-l;
 }</code></pre>
 
 You'll gain the extra benefit of keeping your code DRYer, though you'll need to more carefully consider how you structure your silent classes.
