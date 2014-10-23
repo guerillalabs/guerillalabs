@@ -102,9 +102,9 @@ There are a couple of other parameters you can use for LinkedIn share links – 
 
 Since Pinterest requires an image to share, these links are slightly more involved.  You can get a lot more information about the specific requirements, like recommended image dimensions, from their [developer site](http://developers.pinterest.com/pin_it/). You can go very deep with what is possible on Pinterest, but a simple sharing link looks like:
 
-<pre><code class="language-markup">&lt;a href=&quot;http://www.pinterest.com/pin/create/button/?url={url_encoded_url}&amp;amp;media={url_encoded_image_url}&amp;amp;description={url_encoded_description&quot;&gt;Pin It&lt;/a&gt;</code></pre>
+<pre><code class="language-markup">&lt;a href=&quot;http://www.pinterest.com/pin/create/button/?url={url_encoded_url}&amp;amp;media={url_encoded_image_url}&amp;amp;description={url_encoded_description}&quot;&gt;Pin It&lt;/a&gt;</code></pre>
 
-You have <code class="language-markup">{url_encoded_url}</code> and <code class="language-markup">{description}</code>, which should be self explanatory if you read the rest of this post, but <code class="language-markup">{url_encoded_image_url}</code> is new. Simply put in the URL of the image you'd like to share.
+You have <code class="language-markup">{url_encoded_url}</code> and <code class="language-markup">{url_encoded_description}</code>, which should be self explanatory if you read the rest of this post, but <code class="language-markup">{url_encoded_image_url}</code> is new. Simply put in the URL of the image you'd like to share.
 
 Here's a working example:
 
