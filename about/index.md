@@ -16,7 +16,7 @@ Of course, you may really just need help launching that new site or taking care 
 
 ## What's in a name?
 
-A selective summary of Wikipedia's definition of Guerilla warfare would be "a form of warfare in which a small group, using tactics such as extraordinary mobility, strike a vulnerable target and withdraw almost immediately." This is such a great parallel to how we see Guerilla Labs' work on the web. We get in, help a team with a feature or site, and get out of the way.
+A selective summary of Wikipedia's definition of Guerilla warfare would be "a form of warfare in which a small group, using tactics such as extraordinary mobility, strike a vulnerable target and withdraw almost immediately." This is such a great parallel to how we see Guerilla Labs' work on the web. We get in, help a team with a feature or site and get out of the way.
 
 "Guerilla" means "little war" in spanish. Large redesigns are the norm in our industry, but we believe continuous improvement is the true path to success online. Call it "slow and steady", call it a "realign", call it "little war" -- we believe in making websites better one feature at a time.
 
