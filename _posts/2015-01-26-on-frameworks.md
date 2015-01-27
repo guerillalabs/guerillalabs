@@ -30,7 +30,7 @@ The only time I'd advocate using a framework like Materialize is if your team ha
 
 ## Code Bloat
 
-Let's take a look at the [color palate](http://materializecss.com/color.html) of the Materialize framework. The documentation certainly looks cool -- a large spectrum of colors to choose from and helper classes to modify the shade of each color.
+Let's take a look at the [color palette](http://materializecss.com/color.html) of the Materialize framework. The documentation certainly looks cool -- a large spectrum of colors to choose from and helper classes to modify the shade of each color.
 
 Well, in a real project, how many of those colors will actually be in use? Ten percent? Less?
 
