@@ -29,7 +29,7 @@ The [download page](http://phantomjs.org/download.html) of the documentation has
 
 So, I went with the alternate installation method, which uses Homebrew. That means we'll have to install Homebrew if you don't already have it. The instructions are at the very bottom of the [Homebrew site](http://brew.sh/), but here's the command you need to type into a terminal window:
 
-<pre><code class="language-markup">ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</code></pre>
+<pre><code class="language-markup">ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></pre>
 
 Once installation completes successfully, it's time to install PhantomJS. Run this command in your terminal window to do that:
 
