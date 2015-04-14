@@ -478,6 +478,9 @@ input[type='tel'] {
 	@include mq($bp-small, false, false, max, width) {
 		font-size: rel($small-font-size);
 	}
+	.codepen, .cp_embed_iframe {
+		margin: rel($vertical-rhythm * 3) 0;
+	}
 }
 .post-title {
 	color: $primary-color;
