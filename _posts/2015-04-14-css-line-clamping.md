@@ -41,7 +41,7 @@ I now had a fade out technique that avoided my biggest irritations with the orig
 
 <code class="language-markup">@supports</code> seemed like the obvious choice here to separate the code, but it suffers from poor *[ahem]* support.
 
-One of the greatest things about CSS is being able to insert styles are are simply ignored by browsers that do not understand them. So, the <code class="language-markup">-webkit-line-clamp</code> and fade out techniques can live happily together without too much effort.
+One of the greatest things about CSS is being able to insert styles that are simply ignored by browsers that do not understand them. So, the <code class="language-markup">-webkit-line-clamp</code> and fade out techniques can live happily together without too much effort.
 
 <p data-height="430" data-theme-id="0" data-slug-hash="ByXpdW" data-default-tab="result" data-user="jacobfentress" class='codepen'>See the Pen <a href='http://codepen.io/jacobfentress/pen/ByXpdW/'>CSS Line Clamping</a> by Jacob Fentress (<a href='http://codepen.io/jacobfentress'>@jacobfentress</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
