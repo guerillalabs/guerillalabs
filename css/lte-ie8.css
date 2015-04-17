@@ -407,6 +407,12 @@ input[type='tel'] {
     width: 43.21212%; }
 .post .codepen, .post .cp_embed_iframe {
   margin: 27px 0; }
+.post .next {
+  background: #212420;
+  color: #efefef;
+  font-size: 15px;
+  padding: 18px 18px;
+  margin: 27px 0 0; }
 
 .post-title {
   color: #c64227;

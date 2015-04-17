@@ -423,11 +423,17 @@ input[type='tel'] {
       margin-left: 2%;
       margin-right: -11.21212%;
       width: 43.21212%; } }
+.post .codepen, .post .cp_embed_iframe {
+  margin: 1.5rem 0; }
+.post .next {
+  background: #212420;
+  color: #efefef;
+  font-size: 0.809rem;
+  padding: 1rem 1rem;
+  margin: 1.5rem 0 0; }
 @media screen and (max-width: 30em) {
   .post {
     font-size: 0.809rem; } }
-.post .codepen, .post .cp_embed_iframe {
-  margin: 1.5rem 0; }
 
 .post-title {
   color: #c64227;

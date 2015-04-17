@@ -475,11 +475,18 @@ input[type='tel'] {
 			width: #{(33 + nth(grid-cols(l), 1)) - (grid-gutter(l)/2) + 0%};
 		}
 	}
-	@include mq($bp-small, false, false, max, width) {
-		font-size: rel($small-font-size);
-	}
 	.codepen, .cp_embed_iframe {
 		margin: rel($vertical-rhythm * 3) 0;
+	}
+	.next {
+		background: $black;
+		color: $white;
+		font-size: rel($small-font-size);
+		padding: rel($vertical-rhythm * 2) rel($pad);
+		margin: rel($vertical-rhythm * 3) 0 0;
+	}
+	@include mq($bp-small, false, false, max, width) {
+		font-size: rel($small-font-size);
 	}
 }
 .post-title {
