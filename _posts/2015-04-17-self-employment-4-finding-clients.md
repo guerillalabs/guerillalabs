@@ -53,7 +53,7 @@ What do you have to lose?
 
 ## First Year Clients
 
-My first year saw me working with Jesse Bennett-Chamberlain at [31Three](http://31three.com), the fine folks at [A Book Apart](http://abookapart.com), [Crush & Lovely](http://crushlovely.com), [Brand Aid Design](http://www.brandaiddesignco.com) (and a slew of great small-businesses through Brand Aid Design), [LifeWay](http://www.lifeway.com), [Church Health Reader](http://chreader.org), [Made South](http://madesouth.com), [The Riverstone Group](http://www.theriverstonegroup.com), and a few others I either can't talk about publicly or have inadvertently neglected. I have high hopes for what's to come.
+My first year saw me working with Jesse Bennett-Chamberlain at [31Three](http://31three.com), the fine folks at [A Book Apart](http://abookapart.com), [Crush & Lovely](http://crushlovely.com), [Brand Aid Design](http://www.brandaiddesignco.com) (and a slew of great small-businesses through Brand Aid Design), [LifeWay](http://www.lifeway.com), [Church Health Reader](http://chreader.org), [Made South](http://madesouth.com), [The Riverstone Group](http://www.theriverstonegroup.com) and a few others I either can't talk about publicly or have inadvertently neglected. I have high hopes for what's to come.
 
 <div class="next">
     <p>Continue <em>A Field Guide to Self Employment</em> with chapter 5: <a href="{% post_url 2015-04-17-self-employment-5-billing %}">Billing</a>.</p>
