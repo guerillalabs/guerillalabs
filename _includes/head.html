@@ -9,6 +9,9 @@
         <meta name="description" content="{{ description }}">
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.canonical %}
+        <link rel="canonical" href="{{ page.canonical }}">
+    {% endif %}
 
     <!-- TITLE -->
     <title>{{ page.title }} | {{ site.name }}</title>
